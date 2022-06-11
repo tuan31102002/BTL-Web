@@ -1,3 +1,25 @@
 *{
     margin: 0;
 }
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1{
+    width: 24.5%;
+    height: 90px;
+    text-align: center;
+    background-color: #f3f4f6;
+}
+.nav2{
+    display: flex;
+    width: 24.5%;
+    height: 90px;
+    text-align: center;
+    justify-content: space-between;
+    /* background-color: #f3f4f6; */
+}
+.nav3{
+    width: 48%;
+    background-color: #f3f4f6;
+}
