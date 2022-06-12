@@ -1,0 +1,8 @@
+{
+    "SachGiaoKhoa": [
+      { "id": 1, "name": "10 Chuyên Đề Bồi Dưỡng Học Sinh Giỏi" ,"priceSale" : 27 , "price" :30 ,"img": "src/assets/home1.png" },
+      { "id": 2, "name": "10 Chuyên Đề Bồi Dưỡng Học Sinh Giỏi" ,"priceSale" : 27 , "price" :30 ,"img": "src/assets/home1.png" },
+      { "id": 3, "name": "10 Chuyên Đề Bồi Dưỡng Học Sinh Giỏi" ,"priceSale" : 27 , "price" :30 ,"img": "src/assets/home1.png" },
+      { "id": 4, "name": "10 Chuyên Đề Bồi Dưỡng Học Sinh Giỏi" ,"priceSale" : 27 , "price" :30 ,"img": "src/assets/home1.png" }
+    ]
+}
