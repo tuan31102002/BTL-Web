@@ -1,5 +1,5 @@
 import './App.css';
-import { Component, useState } from 'react';
+import React,{  useState } from 'react';
 import Home from './components/home/Home'
 import Header from './components/header/header';
 import Footer from './components/footer/Footer'
@@ -7,12 +7,13 @@ import Footer from './components/footer/Footer'
 
 
 
+
 function App() {
-  const [title, setTitle] = useState('hello');
+  // const [title, setTitle] = useState('hello');
   return (
     <div className="App">
       <div>
-        <Header title={title}/>
+        <Header/>
         <Home/>
         <Footer/>
       </div>

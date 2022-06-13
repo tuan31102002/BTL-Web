@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React, { Children, Component } from 'react'
 class Home extends Component {
     render() {
         return (
             <div>
-                <h1>Hello World - React</h1>
-                <h2>hi</h2>
+              {/* {Children} */}
+              <h1>2</h1>
             </div>
 
         )
