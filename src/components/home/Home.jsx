@@ -1,13 +1,19 @@
 import React, { Children, Component } from 'react'
-class Home extends Component {
-    render() {
+import { Link } from 'react-router-dom';
+import Header from '../header/header';
+
+export default function Home() {
+    
         return (
             <div>
-              {/* {Children} */}
-              <h1>2</h1>
+                <Header/>
+                <h1> Home Page</h1>
+                <Link to="/about">About / </Link>
+                <Link to="/shop">Shop / </Link>
+                <p><Link to="/footer2">footer2</Link></p>
+           
             </div>
-
         )
     }
-}
-export default Home
+
+
