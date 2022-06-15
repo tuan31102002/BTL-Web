@@ -7,6 +7,7 @@ import {Routes,Route} from 'react-router-dom'
 import About from './components/about/About';
 import Shop from './components/shop';
 import Footer2 from './components/footer2';
+import Lienhe from './components/lienhe';
 
 
 
@@ -26,6 +27,7 @@ function App() {
     <Route path='/about' element={<About/>}></Route>
     <Route path='/shop' element={<Shop/>}></Route>
     <Route path='/footer2' element={<Footer2/>}></Route>
+    <Route path='/lienhe' element={<Lienhe/>}></Route>
   </Routes>
   );
 

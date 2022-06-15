@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+}
+
+.row1 {
+    display: flex;
+
+}
+
+p {
+    font-size: 14px;
+}
+
+.row2 p:hover {
+    color: #03a9f4;
+}
+
+img {
+    margin-right: 10px;
+}
