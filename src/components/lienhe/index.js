@@ -1,5 +1,5 @@
 import React from "react";
-import './lienhe.css'
+import './style.css'
 
 // class -> className , style={{width: 30% , height: `1cm`}} style="width:30%" 
 
@@ -51,7 +51,7 @@ export default function Lienhe(){
                         <p>Nội dung*</p>
                         <input style={{width: `700px`,height: `150px`}} aria-label="Nội dung liên hệ" type="noidung"
                         className="form-control" placeholder="Nội dung liên hệ" name="" required="" autocomplete="off" />
-                        <button className="btn" style={{backgroundColor: `#03a9f4`, marginTop: `1cm` , color: white , height: `50px`}}>GỬI TIN NHẮN</button>
+                        <button className="btn" style={{backgroundColor: `#03a9f4`, marginTop: `1cm` , color: `white` , height: `50px`}}>GỬI TIN NHẮN</button>
                     </div>
                  </div>
 
