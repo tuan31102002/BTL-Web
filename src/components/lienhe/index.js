@@ -6,9 +6,9 @@ import './style.css'
 export default function Lienhe(){
     return(
         <div className="container">
-            <div className="row">
-            <div className="row2"  style={{width: `30%`}}>
-                <h3 style={{ marginBottom : `30px`}}>ĐỂ LẠI TIN NHẮN</h3>
+            <div className="row1">
+                <div className="row2"  style={{width: `30%`}}>
+                    <h3 style={{ marginBottom : `30px`}}>ĐỂ LẠI TIN NHẮN</h3>
                     <p><img src="diachi.svg" width="30px" height="30px" alt="" />CS1: 828 Đường Láng – Láng Thượng – Hà Nội -
                     094.1234.828</p>
                     <p><img src="diachi.svg" width="30px" height="30px" alt="" />CS2: 36 Xuân Thủy – Cầu Giấy – Hà Nội -
@@ -21,7 +21,9 @@ export default function Lienhe(){
                     <p><img src="phone.png" width="30px" height="30px" alt="" />094.1234.828 - -</p>
                     <p><img src="mail.svg" width="30px" height="30px" alt="" /> tienthobook@gmail.com</p>
                 </div>
-                <div style={{marginLeft: `1cm`}}>
+
+                {/* <div style={{marginLeft: `1cm`}}> */}
+                <div>
                     <div className="row1">
                         <div style={{marginRight: `1cm`}}>
                             <p>Họ và tên*</p>
@@ -30,7 +32,6 @@ export default function Lienhe(){
                             autocomplete="off" />
 
                         </div>
-                        {/* <div style="margin-right: 1cm;"> */}
                         <div style={{marginRight: `1cm`}}>
                             <p>Email*</p>
                             <input style={{width: `200px`,height: `40px`}} aria-label="Nhập địa chỉ email" type="email"
@@ -46,14 +47,13 @@ export default function Lienhe(){
 
                         </div>
                     </div>
-                    {/* <div style="margin-top: 10px"> */}
                     <div style={{marginTop: `10px`}}>
                         <p>Nội dung*</p>
                         <input style={{width: `700px`,height: `150px`}} aria-label="Nội dung liên hệ" type="noidung"
                         className="form-control" placeholder="Nội dung liên hệ" name="" required="" autocomplete="off" />
                         <button className="btn" style={{backgroundColor: `#03a9f4`, marginTop: `1cm` , color: `white` , height: `50px`}}>GỬI TIN NHẮN</button>
                     </div>
-                 </div>
+                </div>
 
 
             </div>
