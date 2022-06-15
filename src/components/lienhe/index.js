@@ -6,9 +6,9 @@ import './style.css'
 export default function Lienhe(){
     return(
         <div className="container">
-            <div className="row">
-                <div className="row2" style={{ width: `30%` }}>
-                    <h3 style={{ marginBottom: `30px` }}>ĐỂ LẠI TIN NHẮN</h3>
+            <div className="row1">
+                <div className="row2"  style={{width: `30%`}}>
+                    <h3 style={{ marginBottom : `30px`}}>ĐỂ LẠI TIN NHẮN</h3>
                     <p><img src="diachi.svg" width="30px" height="30px" alt="" />CS1: 828 Đường Láng – Láng Thượng – Hà Nội -
                         094.1234.828</p>
                     <p><img src="diachi.svg" width="30px" height="30px" alt="" />CS2: 36 Xuân Thủy – Cầu Giấy – Hà Nội -
