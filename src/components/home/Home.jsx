@@ -1,5 +1,6 @@
-import React, { Children, Component } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
+import Footer from '../footer';
 import Header from '../header';
 
 
@@ -14,6 +15,7 @@ export default function Home() {
                 <p><Link to="/footer2">footer2</Link></p>
                 
                 <Link to="/lienhe">Lienhe</Link>
+                <Footer/>
            
             </div>
         )
