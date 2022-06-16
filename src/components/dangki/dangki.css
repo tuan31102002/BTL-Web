@@ -3,9 +3,9 @@
     color: #141414;
     font-size: 12px;
 }
-h3{
+/* h3{
     text-align: center;
-}
+} */
 .banner{
       display: flex;
       max-width: 129px;
@@ -14,10 +14,10 @@ h3{
       margin-right: 16.5cm;
       border-spacing: 2cm;
     }
-    .content{
+    /* .content{
         margin-left: 12.5cm;
         margin-right: 12.5cm;
-    }
-.row4{
+    } */
+/* .row4{
     display: flex;
-}
+} */
