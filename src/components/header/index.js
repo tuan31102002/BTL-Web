@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css'
+import cart from '../../components/header/assets/phone.png'
 
 export default function Header(){
     return(
@@ -19,7 +20,7 @@ export default function Header(){
                 </div>
                 <div style={{width:`20%`,}}>
                     <p style={{fontSize:`13px`,color: `black`}}>Giờ mở cửa (08.00-22.00)</p>
-                    <p style={{fontSize:`18px`,color: `#03A9F4`,}}><img width="30px" height="30px" src="image/phone.png" alt=""/>0941231828</p>
+                    <p style={{fontSize:`18px`,color: `#03A9F4`,}}><img width="30px" height="30px" src={cart} alt=""/>0941231828</p>
                              
                         
                     

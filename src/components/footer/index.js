@@ -5,6 +5,9 @@ const row1 = {
     display: `flex`,
     justifyContent: `space-around`,
 }
+
+
+
 const logo = {
     display: `flex`,
     
@@ -21,6 +24,7 @@ const h3 = {
 const p = {
     color: `white`
 }
+
 
 
 export default function Footer(){
@@ -48,7 +52,7 @@ export default function Footer(){
                     <hr/>
 
 
-                        <div style={row1}>
+                        <div className="row1" style={row1}>
                             <div>
                                 <img src="image/logo.webp" alt=""/>
 
