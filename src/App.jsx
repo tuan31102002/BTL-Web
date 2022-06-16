@@ -8,6 +8,7 @@ import About from './components/about/About';
 import Shop from './components/shop';
 
 import Lienhe from './components/lienhe';
+import Dangki from './components/dangki';
 
 
 
@@ -27,6 +28,10 @@ function App() {
     <Route path='/about' element={<About/>}></Route>
     <Route path='/shop' element={<Shop/>}></Route>
     <Route path='/lienhe' element={<Lienhe/>}></Route>
+    <Route path='/dangki' element={<Dangki/>}></Route>
+
+    
+
 
 
     
