@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Ketoannoibo(){
     return(
-        <div>
+        <div style={{marginLeft:`30%`,marginRight:`30%`}}>
             <h1>TUYỂN DỤNG KẾ TOÁN NỘI BỘ</h1>
             <p>1.&emsp;	&emsp;Quản lý trực tiếp: Giám đốc nhà sách</p>
             <p>I.&emsp;	&emsp;Nhiệm vụ cụ thể</p>

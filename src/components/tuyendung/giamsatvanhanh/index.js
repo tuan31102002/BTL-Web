@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Giamsatvanhanh(){
     return(
-        <div>
+        <div style={{marginLeft:`30%`,marginRight:`30%`}}>
             <h3>TUYỂN DỤNG NHÂN VIÊN NAM, NỮ KIỂM TRA CHẤT LƯỢNG (QC)</h3>
             <p>Thời gian làm việc: 7h45 – 17h30. Nghỉ trưa 1,5h. Tháng nghỉ 2 ngày có lương</p>
             <h3>Mô tả công việc:</h3>
