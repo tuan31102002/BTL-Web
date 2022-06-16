@@ -12,6 +12,7 @@ import Giamsatvanhanh from './components/tuyendung/giamsatvanhanh';
 import Ketoannoibo from './components/tuyendung/ketoannoibo';
 import Quanliquay from './components/tuyendung/quanliquay';
 import Dangki from './components/dangki';
+import Dangnhap from './components/dangnhap';
 
 
 
@@ -37,7 +38,7 @@ function App() {
     <Route path='/ketoannoibo' element={<Ketoannoibo/>}></Route>
     <Route path='/quanliquay' element={<Quanliquay/>}></Route>
     <Route path='/dangki' element={<Dangki/>}></Route>
- 
+    <Route path='/dangnhap' element={<Dangnhap/>}></Route>
   </Routes>
   );
 
