@@ -4,7 +4,7 @@ import './style.css'
 export default function Footer(){
     return(
         <div>
-            <div style={{backgroundColor:`#2E282E` }}>
+            <div style={{backgroundColor:`#2E282E`,padding:`2cm` }}>
                 <div className="container">
                     <div className=" row ">
                         <div className="col-6">
@@ -13,10 +13,10 @@ export default function Footer(){
                         </div>
                         <div className="col-6">
                             <div className="input-group">
-                                <input style={{ height:`60px`}} aria-label="Địa chỉ Email" type="email" className="form-control"
+                                 <input style={{ height:`60px`}} aria-label="Địa chỉ Email" type="email" className="form-control"
                                     placeholder="Địa chỉ Email" name="EMAIL" required="" autocomplete="off"/>
                                     <span className="input-group-append">
-                                        <button style={{backgroundColor: `#03a9f4`}} className="btn btn-default" type="submit"
+                                        <button style={{backgroundColor: `#03a9f4`,height:`60px`,}} className="btn btn-default" type="submit"
                                         aria-label="Đăng ký nhận tin" name="subscribe">Đăng ký</button>
                                     </span>
                             </div>
@@ -46,7 +46,7 @@ export default function Footer(){
                                         <a href="/#"><img src="image/instagram.png" alt=""/></a>
                                     </div>
                             </div>
-                            <div style={{width:`40%` }}>
+                            <div style={{width:`30%` }}>
                                     <h3>Liên kết nhanh</h3>
                                     <hr/>
                                     <p>Kho Sách</p>

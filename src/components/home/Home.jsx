@@ -16,7 +16,9 @@ export default function Home() {
                 
                 <Link to="/lienhe">Lienhe</Link>
                 <Footer/>
-           
+                <Link to="/quanliquay">Quanliquay</Link>
+                <Link to="/giamsatvanhanh">Giamsatvanhanh</Link>
+                <Link to="/ketoannoibo">Ketoannoibo</Link>
             </div>
         )
     }
