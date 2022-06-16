@@ -1,6 +1,8 @@
 import React from "react";
 import './style.css'
-
+import phone from '../../components/lienhe/phone.png'
+import diachi from '../../components/lienhe/diachi.svg'
+import mail from '../../components/lienhe/mail.svg'
 // class -> className , style={{width: 30% , height: `1cm`}} style="width:30%" 
 
 export default function Lienhe(){
@@ -9,17 +11,17 @@ export default function Lienhe(){
             <div className="row1">
                 <div className="row2"  style={{width: `30%`}}>
                     <h3 style={{ marginBottom : `30px`}}>ĐỂ LẠI TIN NHẮN</h3>
-                    <p><img src="diachi.svg" width="30px" height="30px" alt="" />CS1: 828 Đường Láng – Láng Thượng – Hà Nội -
+                    <p><img src={diachi} width="30px" height="30px" alt="" />CS1: 828 Đường Láng – Láng Thượng – Hà Nội -
                         094.1234.828</p>
-                    <p><img src="diachi.svg" width="30px" height="30px" alt="" />CS2: 36 Xuân Thủy – Cầu Giấy – Hà Nội -
+                    <p><img src={diachi} width="30px" height="30px" alt="" />CS2: 36 Xuân Thủy – Cầu Giấy – Hà Nội -
                         0934.173.636</p>
-                    <p><img src="diachi.svg" width="30px" height="30px" alt="" />CS3: 424 Nguyễn Trãi - Thanh Xuân - Hà Nội -
+                    <p><img src={diachi} width="30px" height="30px" alt="" />CS3: 424 Nguyễn Trãi - Thanh Xuân - Hà Nội -
                         0966.688.424</p>
-                    <p><img src="diachi.svg" width="30px" height="30px" alt="" />CS4: 697 Giải Phóng - Hoàng Mai - Hà Nội -
+                    <p><img src={diachi} width="30px" height="30px" alt="" />CS4: 697 Giải Phóng - Hoàng Mai - Hà Nội -
                         0933.695.697</p>
-                    <p><img src="phone.png" width="30px" height="30px" alt="" /> 0915616688</p>
-                    <p><img src="phone.png" width="30px" height="30px" alt="" />094.1234.828 - -</p>
-                    <p><img src="mail.svg" width="30px" height="30px" alt="" /> tienthobook@gmail.com</p>
+                    <p><img src={phone} width="30px" height="30px" alt="" /> 0915616688</p>
+                    <p><img src={phone} width="30px" height="30px" alt="" />094.1234.828 - -</p>
+                    <p><img src={mail} width="30px" height="30px" alt="" /> tienthobook@gmail.com</p>
                 </div>
                 <div style={{ marginLeft: `1cm` }}>
                     <div className="row1">

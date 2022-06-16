@@ -1,7 +1,9 @@
 import React from "react";
 import './style.css'
-import cart from '../../components/header/assets/phone.png'
-
+import cart from '../../components/header/assets/cart.png'
+import logo from '../../components/header/assets/logo.webp'
+import phone from '../../components/header/assets/phone.png'
+import user from '../../components/header/assets/user.png'
 const li ={
     listStyle: `none`
 }
@@ -13,26 +15,26 @@ export default function Header(){
         <div className="container" style={{marginTop: `10px`}}>
             <div className="row">
                 <div style={{width:`20%`}}>
-                    <a href="/#"><img  style={{width: `200px`, height:`70px`}}  alt="logo.webp"/></a>
+                    <a href="/#"><img  style={{width: `200px`, height:`70px`}} src={logo}  alt="logo.webp"/></a>
                     
                 </div>
                 <div style={{width:`50%`,}}>
                     <div style={{marginTop: `20px`,}} className="d-flex">
-                        <input style={{width: `400px`,}} className="form-control me-2" type="search" placeholder="Search"
+                        <input style={{width: `450px`,height:`40px`,marginLeft:`1cm`}} className="form-control me-2" type="search" placeholder="Search"
                                  aria-label="Search"/>
                         <button className="btn btn-outline-success" type="submit">Search</button>
                      </div>
                 </div>
                 <div style={{width:`20%`,}}>
                     <p style={{fontSize:`13px`,color: `black`}}>Giờ mở cửa (08.00-22.00)</p>
-                    <p style={{fontSize:`18px`,color: `#03A9F4`,}}><img width="30px" height="30px" src={cart} alt=""/>0941231828</p>
+                    <p style={{fontSize:`18px`,color: `#03A9F4`,}}><img width="30px" height="30px" src={phone} alt=""/>0941231828</p>
                              
                         
                     
                 </div>
                  <div style={{width:`10%`,display:`flex` ,listStyle:`center`,}}>
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown" href="/#"><img src="" alt="user"/></a>
+                        <a className="nav-link dropdown" href="/#"><img src={user} alt="user"/></a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li style={li}><a className="dropdown-item" href="/#">Đăng Nhập</a></li>
                             <li style={li}><a className="dropdown-item" href="/#">Đăng Ký</a></li>
@@ -40,7 +42,7 @@ export default function Header(){
                      </li>
 
                     <li style={li} className="nav-item dropdown">
-                        <a className="nav-link dropdown" href="/#"><img src="image/cart.png" alt="giỏ hàng"/></a>
+                        <a className="nav-link dropdown" href="/#"><img src={cart} alt="giỏ hàng"/></a>
                          </li>
                         
                 </div>

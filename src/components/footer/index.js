@@ -1,6 +1,12 @@
 import React from "react";
-import './footer.css'
-
+import './footer.css';
+import fb from '../../components/footer/assets/fb.png'
+import ig from '../../components/footer/assets/instagram.png'
+import Logo from '../../components/footer/assets/logo.webp'
+import Logo2 from '../../components/footer/assets/logo2.webp'
+import Logo3 from '../../components/footer/assets/logo3.png'
+import twiter from '../../components/footer/assets/twiter.jpg'
+import yt from '../../components/footer/assets/yt.png'
 const row1 = {
     display: `flex`,
     justifyContent: `space-around`,
@@ -14,8 +20,8 @@ const logo = {
 }
 const logo_img = {
     width: `60px`,
-    height: `50px`,
-    padding: `5px`
+    height: `56px`,
+    padding: `1px`
 }
 
 const h3 = {
@@ -34,7 +40,7 @@ export default function Footer(){
                 <div className="container">
                     <div className="row">
                         <div className="col-6">
-                            <h3 style={h3}>Đăng ký nhận tin</h3>
+                            <h2 style={h3}>Đăng ký nhận tin</h2>
                             <p  style={h3}>Nhận thông tin sản phẩm mới nhất, tin khuyến mãi và nhiều hơn nữa.</p>
                         </div>
                         <div className="col-6">
@@ -54,22 +60,22 @@ export default function Footer(){
 
                         <div className="row1" style={row1}>
                             <div>
-                                <img src="image/logo.webp" alt="logo"/>
+                                <img src={Logo} alt=""/>
 
-                                    <p  style={h3}>TIENTHOBOOK</p>
+                                <p  style={h3}>TIENTHOBOOK</p>
                                     <p  style={h3}>Hộ Kinh Doanh nhà sách Tiến Thọ</p>
                                     <p  style={h3}>GPKD số 01G8019354 do UBND Quận Cầu Giấy Cấp ngày 04/12/2019</p>
                                     <p  style={h3}>Địa chỉ: CS5: Cơ sở 5 : 50 Nguyễn Thị Lưu - T.P Bắc Giang - Hotline: 0948.555.050</p>
                                     <p  style={h3}>Địa chỉ: CS6 : 282a Lương Ngọc Quyến - Thái Nguyên - 0906.233.282</p>
-                                    <p  style={h3}><a href="/#">Chính sách vận chuyển</a></p>
-                                    <p  style={h3}><a href="/#">Chính sách vận chuyển</a></p>
-                                    <p  style={h3}><a href="/#">Chính sách đổi trả</a></p>
-                                    <p  style={h3}><a href="/#">Hình thức thanh toán</a></p>
+                                    <p  style={h3}><a style={{textDecoration:`none`}} href="/#">Chính sách vận chuyển</a></p>
+                                    <p  style={h3}><a style={{textDecoration:`none`}} href="/#">Chính sách vận chuyển</a></p>
+                                    <p  style={h3}><a style={{textDecoration:`none`}} href="/#">Chính sách đổi trả</a></p>
+                                    <p  style={h3}><a style={{textDecoration:`none`}} href="/#">Hình thức thanh toán</a></p>
                                     <div style={logo}>
-                                        <a href="/#"><img style={logo_img} src="image/fb.png" alt=""/></a>
-                                        <a href="/#"><img style={logo_img} src="image/twiter.jpg" alt=""/></a>
-                                        <a href="/#"><img style={logo_img} src="image/yt.png" alt=""/></a>
-                                        <a href="/#"><img style={logo_img} src="image/instagram.png" alt=""/></a>
+                                        <a href="/#"><img className="rounded-circle" style={logo_img} src={fb} alt=""/></a>
+                                        <a href="/#"><img className="rounded-circle" style={logo_img} src={twiter} alt=""/></a>
+                                        <a href="/#"><img className="rounded-circle" style={logo_img} src={yt} alt=""/></a>
+                                        <a href="/#"><img className="rounded-circle" style={logo_img} src={ig} alt=""/></a>
                                     </div>
                             </div>
                             <div style={{width:`30%` }}>
@@ -82,7 +88,7 @@ export default function Footer(){
                                     <p  style={h3}>Đồ Chơi</p>
                                     <p  style={h3}>Lịch Tết</p>
                                     <p  style={h3}>Quà Tặng & Phụ Kiện</p>
-                                    <img src="image/logo2.webp" width="250px" height="100px" alt="" />
+                                    <img src={Logo2} width="250px" height="100px" alt="" />
                             </div>
                                     <div style={{width:`35%` }}>
                                         <h3  style={h3}>Thông tin liên hệ</h3>
@@ -100,7 +106,7 @@ export default function Footer(){
                 </div>
             
                 <div style={{backgroundColor:`#000000fa`,padding: `10px`}}>
-                    <p   style={{textAlign: `center` , color: `white`}}>© Bản quyền thuộc về Nhà sách Tiến Thọ | Cung cấp bởi Sapo<img src="image/logo3.png" alt=""/> </p>
+                    <p   style={{textAlign: `center` , color: `white`}}>© Bản quyền thuộc về Nhà sách Tiến Thọ | Cung cấp bởi Sapo<img src={Logo3} alt=""/> </p>
 
                 </div>
         </div>
