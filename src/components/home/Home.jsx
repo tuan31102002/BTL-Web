@@ -15,8 +15,10 @@ export default function Home() {
                 <p><Link to="/footer2">footer2</Link></p>
                 
                 <Link to="/lienhe">Lienhe</Link>
+                <p><Link to="/dangki">Dang ki</Link></p>
+                <p><Link to="/dangnhap">Dang nhap</Link></p>
                 <Footer/>
-           
+                
             </div>
         )
     }

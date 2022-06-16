@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+import './footer.css'
 
 const row1 = {
     display: `flex`,
@@ -30,7 +30,7 @@ const p = {
 export default function Footer(){
     return(
         <div>
-            <div style={{backgroundColor:`#2E282E`}}>
+            <div style={{backgroundColor:`#2E282E`,padding:`2cm`}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-6">
@@ -39,10 +39,10 @@ export default function Footer(){
                         </div>
                         <div className="col-6">
                             <div className="input-group">
-                                <input style={{ height:`60px`}} aria-label="Địa chỉ Email" type="email" className="form-control"
+                                 <input style={{ height:`60px`}} aria-label="Địa chỉ Email" type="email" className="form-control"
                                     placeholder="Địa chỉ Email" name="EMAIL" required="" autocomplete="off"/>
                                     <span className="input-group-append">
-                                        <button style={{backgroundColor: `#03a9f4`}} className="btn btn-default" type="submit"
+                                        <button style={{backgroundColor: `#03a9f4`,height:`60px`,}} className="btn btn-default" type="submit"
                                         aria-label="Đăng ký nhận tin" name="subscribe">Đăng ký</button>
                                     </span>
                             </div>
@@ -54,14 +54,14 @@ export default function Footer(){
 
                         <div className="row1" style={row1}>
                             <div>
-                                <img src="image/logo.webp" alt=""/>
+                                <img src="image/logo.webp" alt="logo"/>
 
                                     <p  style={h3}>TIENTHOBOOK</p>
                                     <p  style={h3}>Hộ Kinh Doanh nhà sách Tiến Thọ</p>
                                     <p  style={h3}>GPKD số 01G8019354 do UBND Quận Cầu Giấy Cấp ngày 04/12/2019</p>
                                     <p  style={h3}>Địa chỉ: CS5: Cơ sở 5 : 50 Nguyễn Thị Lưu - T.P Bắc Giang - Hotline: 0948.555.050</p>
                                     <p  style={h3}>Địa chỉ: CS6 : 282a Lương Ngọc Quyến - Thái Nguyên - 0906.233.282</p>
-                                    <p  style={h3}>Chính sách bảo mật</p>
+                                    <p  style={h3}><a href="/#">Chính sách vận chuyển</a></p>
                                     <p  style={h3}><a href="/#">Chính sách vận chuyển</a></p>
                                     <p  style={h3}><a href="/#">Chính sách đổi trả</a></p>
                                     <p  style={h3}><a href="/#">Hình thức thanh toán</a></p>
@@ -72,7 +72,7 @@ export default function Footer(){
                                         <a href="/#"><img style={logo_img} src="image/instagram.png" alt=""/></a>
                                     </div>
                             </div>
-                            <div style={{width:`40%` }}>
+                            <div style={{width:`30%` }}>
                                     <h3 style={h3}>Liên kết nhanh</h3>
                                     <hr/>
                                     <p  style={h3}>Kho Sách</p>

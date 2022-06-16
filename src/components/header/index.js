@@ -2,14 +2,19 @@ import React from "react";
 import './style.css'
 import cart from '../../components/header/assets/phone.png'
 
+const li ={
+    listStyle: `none`
+}
+
+
 export default function Header(){
     return(
         <div>
         <div className="container" style={{marginTop: `10px`}}>
-            <div className=" row ">
+            <div className="row">
                 <div style={{width:`20%`}}>
-                    <a href="/#"><img style={{width: `200px`, height:`70px`}}  alt=""/></a>
-
+                    <a href="/#"><img  style={{width: `200px`, height:`70px`}}  alt="logo.webp"/></a>
+                    
                 </div>
                 <div style={{width:`50%`,}}>
                     <div style={{marginTop: `20px`,}} className="d-flex">
@@ -27,15 +32,15 @@ export default function Header(){
                 </div>
                  <div style={{width:`10%`,display:`flex` ,listStyle:`center`,}}>
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown" href="/#"><img src="image/user.png" alt=""/></a>
+                        <a className="nav-link dropdown" href="/#"><img src="" alt="user"/></a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a className="dropdown-item" href="/#">Đăng Nhập</a></li>
-                            <li><a className="dropdown-item" href="/#">Đăng Ký</a></li>
+                            <li style={li}><a className="dropdown-item" href="/#">Đăng Nhập</a></li>
+                            <li style={li}><a className="dropdown-item" href="/#">Đăng Ký</a></li>
                         </ul>
                      </li>
 
-                    <li className="nav-item dropdown">
-                        <a className="nav-link dropdown" href="/#"><img src="image/cart.png" alt=""/></a>
+                    <li style={li} className="nav-item dropdown">
+                        <a className="nav-link dropdown" href="/#"><img src="image/cart.png" alt="giỏ hàng"/></a>
                          </li>
                         
                 </div>
@@ -47,61 +52,61 @@ export default function Header(){
 
         <div style={{backgroundColor: `#03A9F4`,color: `aliceblue`,}}>
             <div className="container" style={{display: `flex`, justifyContent: `space-around`,}}>
-                <li className="nav-item dropdown ">
+                <li style={li} className="nav-item dropdown ">
                     <a className="nav-link dropdown" href="/#">
                          TRANG CHỦ
                     </a> 
 
                  </li>
 
-                <li className="nav-item dropdown ">
+                <li style={li} className="nav-item dropdown ">
                     <a className="nav-link dropdown" href="/#">
                          GIỚI THIỆU
                     </a>
 
                 </li>
-                <li className="nav-item dropdown ">
+                <li style={li} className="nav-item dropdown ">
                     <a className="nav-link dropdown" href="/#">
                         SẢN PHẨM
                     </a>
                  <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a className="dropdown-item" href="/#">Kho Sách</a></li>
-                    <li><a className="dropdown-item" href="/#">Sách Tham Khảo</a></li>
-                    <li><a className="dropdown-item" href="/#">Dụng Cụ Học Tập</a></li>
-                    <li><a className="dropdown-item" href="/#">Văn Phòng Phẩm</a></li>
-                    <li><a className="dropdown-item" href="/#">Đồ Chơi </a></li>
-                    <li><a className="dropdown-item" href="/#">Lịch Tết</a></li>
-                    <li><a className="dropdown-item" href="/#">Quà Tặng & Phụ Kiện</a></li>
+                    <li style={li}><a className="dropdown-item" href="/#">Kho Sách</a></li>
+                    <li style={li}><a className="dropdown-item" href="/#">Sách Tham Khảo</a></li>
+                    <li style={li}><a className="dropdown-item" href="/#">Dụng Cụ Học Tập</a></li>
+                    <li style={li}><a className="dropdown-item" href="/#">Văn Phòng Phẩm</a></li>
+                    <li style={li}><a className="dropdown-item" href="/#">Đồ Chơi </a></li>
+                    <li style={li}><a className="dropdown-item" href="/#">Lịch Tết</a></li>
+                    <li style={li}><a className="dropdown-item" href="/#">Quà Tặng & Phụ Kiện</a></li>
                  </ul>
 
                 </li>
-                 <li className="nav-item dropdown ">
+                 <li style={li} className="nav-item dropdown ">
                     <a className="nav-link dropdown" href="/#">
                     TƯ VẤN MUA SẮM
                      </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a className="dropdown-item" href="/#">Review Sách</a></li>
-                        <li><a className="dropdown-item" href="/#">Đồ Chơi Cho Bé</a></li>
-                        <li><a className="dropdown-item" href="/#">Đồ Dùng Văn Phòng Phẩm</a></li>
-                        <li><a className="dropdown-item" href="/#">Khuyến Mại Và Ưu Đãi</a></li>
+                        <li style={li}><a className="dropdown-item" href="/#">Review Sách</a></li>
+                        <li style={li}><a className="dropdown-item" href="/#">Đồ Chơi Cho Bé</a></li>
+                        <li style={li}><a className="dropdown-item" href="/#">Đồ Dùng Văn Phòng Phẩm</a></li>
+                        <li style={li}><a className="dropdown-item" href="/#">Khuyến Mại Và Ưu Đãi</a></li>
                      </ul>
                 </li>
 
-                <li className="nav-item dropdown ">
+                <li style={li} className="nav-item dropdown ">
                     <a className="nav-link dropdown" href="/#">
                      TUYỂN DỤNG
                      </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a className="dropdown-item" href="/#">Kế Toán Nội Bộ</a></li>
-                        <li><a className="dropdown-item" href="/#">Giám Sát Vận Hành</a></li>
+                        <li style={li}><a className="dropdown-item" href="/#">Kế Toán Nội Bộ</a></li>
+                        <li style={li}><a className="dropdown-item" href="/#">Giám Sát Vận Hành</a></li>
 
-                        <li><a className="dropdown-item" href="/#">Quản Lí Quầy</a></li>
-                        <li><a className="dropdown-item" href="/#">TRỢ LÍ GIÁM ĐỐC</a></li>
-                        <li><a className="dropdown-item" href="/#">NHÂN VIÊN THU MUA</a></li>
-                        <li><a className="dropdown-item" href="/#">Nhân Viên Kiểm Kê</a></li>
+                        <li style={li}><a className="dropdown-item" href="/#">Quản Lí Quầy</a></li>
+                        <li style={li}><a className="dropdown-item" href="/#">TRỢ LÍ GIÁM ĐỐC</a></li>
+                        <li style={li}><a className="dropdown-item" href="/#">NHÂN VIÊN THU MUA</a></li>
+                        <li style={li}><a className="dropdown-item" href="/#">Nhân Viên Kiểm Kê</a></li>
                     </ul>
                  </li>
-                <li className="nav-item dropdown ">
+                <li style={li} className="nav-item dropdown ">
                      <a className="nav-link dropdown" href="/#">
                       LIÊN HỆ
                     </a>
