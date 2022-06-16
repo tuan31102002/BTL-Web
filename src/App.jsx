@@ -8,9 +8,7 @@ import About from './components/about/About';
 import Shop from './components/shop';
 
 import Lienhe from './components/lienhe';
-import Giamsatvanhanh from './components/tuyendung/giamsatvanhanh';
-import Ketoannoibo from './components/tuyendung/ketoannoibo';
-import Quanliquay from './components/tuyendung/quanliquay';
+
 
 
 
@@ -32,9 +30,7 @@ function App() {
     <Route path='/about' element={<About/>}></Route>
     <Route path='/shop' element={<Shop/>}></Route>
     <Route path='/lienhe' element={<Lienhe/>}></Route>
-    <Route path='/giamsatvanhanh' element={<Giamsatvanhanh/>}></Route>
-    <Route path='/ketoannoibo' element={<Ketoannoibo/>}></Route>
-    <Route path='/quanliquay' element={<Quanliquay/>}></Route>
+    
  
   </Routes>
   );

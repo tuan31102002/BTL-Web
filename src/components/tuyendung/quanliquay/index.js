@@ -3,9 +3,9 @@ import React from "react";
 
 export default function Quanliquay(){
     return(
-        <div>
+        <div style={{marginLeft:`30%`,marginRight:`30%`}}>
             <h3>NHÀ SÁCH TIẾN THỌ THÔNG BÁO TUYỂN DỤNG QUẢN LÝ QUẦY KHÔNG ÁP KPI</h3>
-            <h1>-    Lương từ 9- 11 triệu + hỗ trợ ăn trưa</h1>
+            <p>-    Lương từ 9- 11 triệu + hỗ trợ ăn trưa</p>
             <p>-    Thời gian làm việc linh hoạt. Tháng nghỉ 2 ngày.</p>
             <p>-    Chế độ phúc lợi tốt, thưởng tháng - quý (theo kết quả kinh doanh), thưởng Lễ- Tết, tháng lương thứ 13</p>
             <p>-    Được tham gia BHYT, BHXH, BHTN</p>
