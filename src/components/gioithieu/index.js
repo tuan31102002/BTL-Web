@@ -2,6 +2,8 @@ import React from "react";
 import './style.css'
 import ic from '../../components/gioithieu/assets/caret-right-solid.svg'
 import ac from '../../components/gioithieu/assets/square-phone-solid.svg'
+
+
 export default function Gioithieu(){
     return(
         <div>
