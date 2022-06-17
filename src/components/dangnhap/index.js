@@ -3,12 +3,6 @@ import './dangnhap.css'
 import fb from '../../components/dangnhap/assets/fb-btn.svg'
 import gp from '../../components/dangnhap/assets/gp-btn.svg'
 
-const banner = {
-    display:`flex`,
-    marginLeft :`16.5cm`,
-    marginRight :`16.5cm`,
-    maxWidth :`130px`
-}
 const button = {
   color: `#FFFFF`,
   background:`#03a9F4`, 
@@ -20,7 +14,7 @@ export default function Dangnhap(){
     return(
         <div>
             <h3 style={{textAlign:`center`,color:`#333333,`}}>ĐĂNG NHẬP TÀI KHOẢN </h3>
-    <div className="banner">
+    <div className="banner" style={{display:`flex`,marginLeft:`16.5cm`,marginRight:`16.5cm`,borderSpacing:`2cm`,maxWidth:`130px` }} >
     
       <img src={fb} />
       <img src={gp}  />
