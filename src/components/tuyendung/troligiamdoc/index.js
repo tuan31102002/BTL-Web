@@ -1,55 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+import React from "react";
+import './style.css'
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tro-li-giam-doc</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <style>
-        * {
-            margin: 0;
-        }
-
-        .title {
-            font-size: 15px;
-            /* margin-left: 5cm; */
-            color: #141414;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-
-        .list ul li {
-            list-style: none;
-
-        }
-
-        .list {
-            /* margin-left: 5cm; */
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            color: #141414;
-
-        }
-
-        .content {
-            /* margin-left: 5cm; */
-
-        }
-
-        body {
-            font-size: 14px;
-            line-height: 1.7;
-            letter-spacing: 0.25px;
-            font-weight: 400;
-
-        }
-    </style>
-</head>
-
-<body>
-    <div class="container">
-        <div class="title">
+export default function Troligiamdoc(){
+    return(
+        <div>
+                <div class="container" >
+        <div class="title" >
             <h1>TUYỂN DỤNG TRỢ LÍ GIÁM ĐỐC SIÊU THỊ </h1>
         </div>
 
@@ -94,6 +50,6 @@
             </ul>
         </div>
     </div>
-</body>
-
-</html>
+        </div>
+    )
+}

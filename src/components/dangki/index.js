@@ -4,11 +4,13 @@ import fb from '../../components/dangki/assets/fb-btn.svg'
 import gp from '../../components/dangki/assets/gp-btn.svg'
 
 
+
+
 export default function Dangki() {
     return (
         <div>
             <h3 style= {{textAlign:`center`}}>ĐĂNG KÍ TÀI KHOẢN </h3>
-            <div classname="banner">
+            <div classname="banner" style={{display:`flex`,maxWidth:`130px`,marginLeft:`16.5cm`,marginRight:`16.5cm`,borderSpacing:`2cm`,}}>
                 <img src={fb} />
                 <img src={gp} />
             </div>

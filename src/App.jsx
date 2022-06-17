@@ -14,6 +14,8 @@ import Quanliquay from './components/tuyendung/quanliquay';
 import Dangki from './components/dangki';
 import Dangnhap from './components/dangnhap';
 import Gioithieu from './components/gioithieu';
+import Troligiamdoc from './components/tuyendung/troligiamdoc';
+import Nhanvienkiemke from './components/tuyendung/nhanvienkiemke';
 
 
 
@@ -38,6 +40,8 @@ function App() {
     <Route path='/giamsatvanhanh' element={<Giamsatvanhanh/>}></Route>
     <Route path='/ketoannoibo' element={<Ketoannoibo/>}></Route>
     <Route path='/quanliquay' element={<Quanliquay/>}></Route>
+    <Route path='/troligiamdoc' element={<Troligiamdoc/>}></Route>
+    <Route path='/nhanvienkiemke' element={<Nhanvienkiemke/>}></Route>
     <Route path='/dangki' element={<Dangki/>}></Route>
     <Route path='/dangnhap' element={<Dangnhap/>}></Route>
     <Route path='/gioithieu' element={<Gioithieu/>}></Route>
