@@ -1,5 +1,7 @@
 import React from "react";
 import './dangki.css'
+import fb from '../../components/dangki/assets/fb-btn.svg'
+import gp from '../../components/dangki/assets/gp-btn.svg'
 
 
 export default function Dangki() {
@@ -7,8 +9,8 @@ export default function Dangki() {
         <div>
             <h3 style= {{textAlign:`center`}}>ĐĂNG KÍ TÀI KHOẢN </h3>
             <div classname="banner">
-                <img src="fb-btn.svg" />
-                <img src="gp-btn.svg" />
+                <img src={fb} />
+                <img src={gp} />
             </div>
             <div style={{marginLeft:`12.5cm`,marginRight:`12.5cm`,}} >
                 <div style={{display:`flex`}} >

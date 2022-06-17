@@ -1,0 +1,29 @@
+.title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    max-width: 30cm;
+    margin-left: 5cm; 
+    font-size: 14px;
+    color: #555555;
+    
+}
+
+.content ul li{
+    line-height: 0.5cm ;    
+    list-style: none;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list{
+    font-size: 14px;
+    
+    text-decoration: none;
+    margin-left: 5cm;
+}
+
+.list ul li{
+    list-style: none;
+}
