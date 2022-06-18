@@ -2,11 +2,13 @@ import React from "react";
 import './style.css'
 import ic from '../../components/gioithieu/assets/caret-right-solid.svg'
 import ac from '../../components/gioithieu/assets/square-phone-solid.svg'
-
+import Header from "../header";
+import Footer from "../footer";
 
 export default function Gioithieu(){
     return(
         <div>
+            <Header />
              <div className="container">
     
     <div className="title" style={{textAlign:`center`}}><h3>TIỆN ÍCH - GIẢI TRÍ - KẾT NỐI </h3></div>
@@ -60,6 +62,7 @@ export default function Gioithieu(){
         </ul>
     </div>
     </div>
+    <Footer />
         </div>
     )
 }

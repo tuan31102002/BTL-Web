@@ -2,13 +2,15 @@ import React from "react";
 import './dangki.css'
 import fb from '../../components/dangki/assets/fb-btn.svg'
 import gp from '../../components/dangki/assets/gp-btn.svg'
-
+import Header from "../header";
+import Footer from "../footer";
 
 
 
 export default function Dangki() {
     return (
         <div>
+            <Header/>
             <h3 style= {{textAlign:`center`}}>ĐĂNG KÍ TÀI KHOẢN </h3>
             <div classname="banner" style={{display:`flex`,maxWidth:`130px`,marginLeft:`16.5cm`,marginRight:`16.5cm`,borderSpacing:`2cm`,}}>
                 <img src={fb} />
@@ -54,13 +56,14 @@ export default function Dangki() {
                     <button className="btn btn-primary" style={{ width: `600px`, height: `40px`, backgroundColor: `#03a9f4`, }} type="button" >Tạo tài khoản</button>
                     {/* <a style={{ textAlign: `center`, textDecoration: `none`, color: `#03a9f4`, }} href="/#">ĐĂNG NHẬP</a> */}
                     <div style={{textAlign: `center`,}}>
-                        <a style={{textDecoration: `none`, color: `#03a9f4`,}} href="/#">ĐĂNG NHẬP</a>
+                        <a style={{textDecoration: `none`, color: `#03a9f4`,}} href="/dangnhap">ĐĂNG NHẬP</a>
                     </div>
                     
 
                     
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
