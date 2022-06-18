@@ -1,0 +1,103 @@
+{
+    "truyenThieuNhi": [
+        {
+            "id" : 1,
+            "name" : "Doraemon Truyện Ngắn Tập 7",
+            "price" : 16 ,
+            "image" : "h54"
+        },
+        {
+            "id" : 2,
+            "name" : "Doraemon Chọn Lọc",
+            "price" : 40 ,
+            "image" : "h55"
+        },
+        {
+            "id" : 3,
+            "name" : "Doraemon Tranh Truyện Màu",
+            "price" : 23 ,
+            "image" : "h56"
+        },
+        {
+            "id" : 4,
+            "name" : "Doraemon Truyện Ngắn Tập 5",
+            "price" : 18 ,
+            "image" : "h57"
+        },        
+        {
+            "id" : 5,
+            "name" : "Doraemon Truyện Ngắn - Tập 6",
+            "price" : 18 ,
+            "image" : "h58"
+        },
+        {
+            "id" : 6,
+            "name" : "Nobita Và Hành Tinh Thú",
+            "price" : 16 ,
+            "image" : "h59"
+        },
+        {
+            "id" : 7,
+            "name" : "Doraemon - Kỉ Niệm Về Bà",
+            "price" : 25 ,
+            "image" : "h60"
+        },
+        {
+            "id" : 8,
+            "name" : "Doraemon Học Tập",
+            "price" : 40 ,
+            "image" : "h61"
+        }
+    ],
+
+    "sachGiaoKhoa": [
+        {
+            "id" : 1,
+            "name" : "10 Chuyên Đề Bồi Dưỡng",
+            "price" : 27 ,
+            "image" : "h14"
+        },
+        {
+            "id" : 2,
+            "name" : "Tiếng Anh 8 - Tập 1",
+            "price" : 34 ,
+            "image" : "h15"
+        },
+        {
+            "id" : 3,
+            "name" : "Tiếng Anh 9 - Tập 2",
+            "price" : 107 ,
+            "image" : "h16"
+        },
+        {
+            "id" : 4,
+            "name" : "Bộ SGK lớp 8",
+            "price" : 103 ,
+            "image" : "h17"
+        },        
+        {
+            "id" : 5,
+            "name" : "150 Bài Tập Tiếng Việt 4",
+            "price" : 44 ,
+            "image" : "h18"
+        },
+        {
+            "id" : 6,
+            "name" : "150 Bài Văn Hay Lớp 3",
+            "price" : 39 ,
+            "image" : "h19"
+        },
+        {
+            "id" : 7,
+            "name" : "155 Bài Làm Văn Tiếng Việt 4",
+            "price" : 43 ,
+            "image" : "h20"
+        },
+        {
+            "id" : 8,
+            "name" : "155 Bài Làm Văn Tiếng Việt 5",
+            "price" : 40 ,
+            "image" : "h21"
+        }
+    ]
+}
