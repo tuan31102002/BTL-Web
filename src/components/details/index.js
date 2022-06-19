@@ -40,27 +40,66 @@ export default function Details(){
                       <li className="list-group-item">
                         <div style={{display: `flex`,justifyContent: `space-around`,}}>
                             <div style={{width: `30%`}}>
-                                <img src="nhan-chia (1).webp" style="width:100%;"   alt="Doraemon Học Tập - Nhân Chia"/></div>
+                                <img src="doremon.svg" style="width:100%;"   alt="Doraemon Học Tập - Nhân Chia"/></div>
                             <div style={{width: `60%`}}>
                                 <p>Endless Field</p>
+                                <p style="color: #03A9F4;">121.500₫ <del style="color:#8a8a8a ;">135.000₫</del></p>
+                            </div>
+                        </div>
+                        </li>
+                      <li class="list-group-item">
+                        <div style="display: flex;justify-content: space-around;">
+                            <div style="width: 30%;">
+                                <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/8-7b2187e3-067b-46f9-bd25-741a3323fd2e.jpg?v=1636034940000" style="width:100%;"   /></div>
+                            <div style="width: 60%;">
+                                <p >Ticket To Childhood</p>
+                                <p style="color: #03A9F4;">85.500₫ <del  style="color:#8a8a8a ;">95.000₫</del></p>
                             </div>
                         </div>
 
-
-
+                      </li>
+                      <li class="list-group-item">
+                        <div style="display: flex;justify-content: space-around;">
+                            <div style="width: 30%;">
+                                <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/7-77081ea0-491c-4f92-afb5-a0d6937ffa47.jpg?v=1636025803000" style="width:100%;"   /></div>
+                            <div style="width: 60%;">
+                                <p>Harry Potter and the Philosopher's Stone Ravenclaw Edition - Paperback</p>
+                                <p style="color: #03A9F4;">240.000₫</p>
+                            </div>
+                        </div>
 
                       </li>
-                      <li className="list-group-item">Vestibulum at eros</li>
+                      <li class="list-group-item">
+                        <div style="display: flex;justify-content: space-around;">
+                            <div style="width: 30%;">
+                                <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/harry-potter-and-the-deathly-hallows-paper-back-1.jpg?v=1636080026000" style="width:100%;"   /></div>
+                            <div style="width: 60%;">
+                                <p>Harry Potter and the Deathly Hallows (Paperback)</p>
+                                <p style="color: #03A9F4;">252.000₫</p>
+                            </div>
+                        </div>
+
+                      </li>
+                      <li class="list-group-item">
+                        <div style="display: flex;justify-content: space-around;">
+                            <div style="width: 30%;">
+                                <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/harry-potter-and-the-half-blood-prince.jpg?v=1636079119000" style="width:100%;"   /></div>
+                            <div style="width: 60%;">
+                                <p>Harry Potter and the Half-Blood Prince</p>
+                                <p style="color: #03A9F4;">252.000₫</p>
+                            </div>
+                        </div>
+
+                      </li>
                     </ul>
-                    <div className="card-body">
-                      <a href="#" className="card-link">Card link</a>
-                      <a href="#" className="card-link">Another link</a>
-                    </div>
-                  </div>
+
+
+
             </div>
         </div>
     </div>
         </div>
+    </div>
     )
 
 }
