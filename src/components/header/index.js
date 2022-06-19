@@ -39,7 +39,7 @@ export default function Header(){
                         <a className="nav-link dropdown" href="/#"><img style={{width:`40px`, height:`40px`}} src={user} alt="user"/></a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li style={li}><a className="dropdown-item" href="/dangnhap">Đăng Nhập</a></li>
-                            <li style={li}><a className="dropdown-item" href="/dangky">Đăng Ký</a></li>
+                            <li style={li}><a className="dropdown-item" href="/dangki">Đăng Kí</a></li>
                         </ul>
                      </li>
 
