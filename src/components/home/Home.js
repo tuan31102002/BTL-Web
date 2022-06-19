@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 // import { Link } from 'react-router-dom';
 import Footer from '../footer';
 import Header from '../header';
-import './style.css'
+import './style.css';
+import axios from 'axios';
+
 
 import h1 from '../../components/home/assets/home1.png'
 import h2 from '../../components/home/assets/home2.png'
@@ -71,6 +73,7 @@ import h66 from '../../components/home/assets/home66.svg'
 import h67 from '../../components/home/assets/home67.svg'
 import h68 from '../../components/home/assets/home68.svg'
 
+
 const row2 = {
     display: `flex`,
     flexWrap: `wrap`
@@ -85,8 +88,37 @@ const row3 = {
 
 export default function Home() {
 
+    const [posts, setPosts] = useState ([])
+
+    useEffect(() => {
+        axios.get('http://localhost:8000/truyenThieuNhi').then(res => {
+            console.log(res)
+            setPosts(res.data)
+        })
+        .catch(err => {
+            console.log(err)
+        })
+        
+    })
+
+    
+
+
+
     return (
         <div>
+            <div>
+                <ul>
+                    {
+                        posts.map(post => <li key={post.id}>{post.name}</li>)
+                    }
+                </ul>
+            </div>
+            <div>
+                {
+                    posts.map(post => <h1>{post.name}</h1>)
+                }
+            </div>
             <Header />
             <div className="container">
                 <img style={{width: `100%`,height:`350px`}} src={h1} alt="" />

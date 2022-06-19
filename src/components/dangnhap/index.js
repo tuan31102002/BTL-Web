@@ -2,8 +2,8 @@ import React from "react";
 import './dangnhap.css'
 import fb from '../../components/dangnhap/assets/fb-btn.svg'
 import gp from '../../components/dangnhap/assets/gp-btn.svg'
-
-
+import Header from "../header";
+import Footer from "../footer";
 const button = {
   color: `#FFFFF`,
   background:`#03a9F4`, 
@@ -14,6 +14,7 @@ const button = {
 export default function Dangnhap(){
     return(
         <div>
+          <Header/>
             <h3 style={{textAlign:`center`,color:`#333333,`}}>ĐĂNG NHẬP TÀI KHOẢN </h3>
     <div className="banner" style={{display:`flex`,marginLeft:`16.5cm`,marginRight:`16.5cm`,borderSpacing:`2cm`,maxWidth:`130px` }} >
     
@@ -46,8 +47,9 @@ export default function Dangnhap(){
       <p>Nhà sách Tiến Thọ cam kết bảo mật và sẽ không bao giờ đăng <br/> hay chia sẻ thông tin mà chưa có được sự đồng ý của bạn.</p>
     </div>
     <div className="callout" >
-      <p>BẠN CHƯA CÓ TÀI KHOẢN. ĐĂNG KÝ <a href="">Tại đây</a></p>
+      <p>BẠN CHƯA CÓ TÀI KHOẢN. ĐĂNG KÝ <a href="/dangki">Tại đây</a></p>
     </div>
+    <Footer/>
         </div>
     )
 }

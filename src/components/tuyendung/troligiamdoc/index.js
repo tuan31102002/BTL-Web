@@ -1,9 +1,12 @@
 import React from "react";
 import './style.css'
+import Header from "../../header";
+import Footer from "../../footer";
 
 export default function Troligiamdoc(){
     return(
         <div>
+            <Header/>
                 <div class="container" >
         <div class="title" >
             <h1>TUYỂN DỤNG TRỢ LÍ GIÁM ĐỐC SIÊU THỊ </h1>
@@ -50,6 +53,7 @@ export default function Troligiamdoc(){
             </ul>
         </div>
     </div>
+    <Footer/>
         </div>
     )
 }

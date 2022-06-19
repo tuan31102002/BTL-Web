@@ -27,9 +27,9 @@ const logo_img = {
 const h3 = {
     color: `white`
 }
-const p = {
-    color: `white`
-}
+// const p = {
+//     color: `white`
+// }
 
 
 

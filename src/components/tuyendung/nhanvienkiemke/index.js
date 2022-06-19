@@ -1,9 +1,13 @@
 import React from "react";
+import Header from "../../header";
+import Footer from "../../footer";
 
 
 export default function Nhanvienkiemke(){   
     return(
-        <div style={{fontSize:`14px`, color:`#141414`, fontFamily:`Calibri,sans-serifa`, lineHeight:`0.5cm`}}>
+        <div>
+            <Header/>
+        <div className="container" style={{fontSize:`14px`, color:`#141414`, fontFamily:`Calibri,sans-serifa`, lineHeight:`0.5cm`}}>
                
         <p>I.	&emsp;	&emsp; Thông tin chung</p>
         <p>1.	&emsp;	&emsp; Vị trí: Nhân viên kiểm kê</p>
@@ -25,7 +29,8 @@ export default function Nhanvienkiemke(){
         <p>-	&emsp;	&emsp; Hỗ trợ ăn trưa tại nhà sách.</p>
  
     </div>
-    
+    <Footer/>
+    </div>
        
     )
 
