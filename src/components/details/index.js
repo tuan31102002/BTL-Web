@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+
 import dr from '../../components/details/assets/doremon.svg'
 import Header from "../header";
 import Footer from "../footer";
@@ -30,11 +30,8 @@ export default function Details(){
             </div>
             <div style={{width: `20%`,}}>
                 <div className="card" style={{width: `18rem`,}}>
-                    <img className="card-img-top" src="..." alt="Card image cap"/>
-                    <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+
+                
                     <ul className="list-group list-group-flush">
                       <li className="list-group-item">CÓ THỂ BẠN QUAN TÂM</li>
                       <li className="list-group-item">
@@ -47,46 +44,46 @@ export default function Details(){
                             </div>
                         </div>
                         </li>
-                      <li class="list-group-item">
-                        <div style="display: flex;justify-content: space-around;">
-                            <div style="width: 30%;">
+                      <li className="list-group-item">
+                        <div style={{display: `flex`,justifyContent: `space-around`,}}>
+                            <div style={{width: `30%`,}}>
                                 <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/8-7b2187e3-067b-46f9-bd25-741a3323fd2e.jpg?v=1636034940000" style="width:100%;"   /></div>
-                            <div style="width: 60%;">
+                            <div style={{width: `60%`,}}>
                                 <p >Ticket To Childhood</p>
-                                <p style="color: #03A9F4;">85.500₫ <del  style="color:#8a8a8a ;">95.000₫</del></p>
+                                <p style={{color: `#03A9F4`,}}>85.500₫ <del  style={{color:`#8a8a8a`}} >95.000₫</del></p>
                             </div>
                         </div>
 
                       </li>
-                      <li class="list-group-item">
-                        <div style="display: flex;justify-content: space-around;">
-                            <div style="width: 30%;">
+                      <li className="list-group-item">
+                        <div style={{display: `flex`,justifyContent: `space-around`,}}>
+                            <div style={{width: `30%`,}}>
                                 <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/7-77081ea0-491c-4f92-afb5-a0d6937ffa47.jpg?v=1636025803000" style="width:100%;"   /></div>
-                            <div style="width: 60%;">
+                            <div style={{width: `60%`,}}>
                                 <p>Harry Potter and the Philosopher's Stone Ravenclaw Edition - Paperback</p>
-                                <p style="color: #03A9F4;">240.000₫</p>
+                                <p style={{color: `#03A9F4`,}}>240.000₫</p>
                             </div>
                         </div>
 
                       </li>
                       <li class="list-group-item">
-                        <div style="display: flex;justify-content: space-around;">
-                            <div style="width: 30%;">
+                        <div style={{display: flex,justifyContent: space-around,}}>
+                            <div style={{width: `30%`,}}>
                                 <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/harry-potter-and-the-deathly-hallows-paper-back-1.jpg?v=1636080026000" style="width:100%;"   /></div>
-                            <div style="width: 60%;">
+                            <div style={{width: `60%`}}>
                                 <p>Harry Potter and the Deathly Hallows (Paperback)</p>
-                                <p style="color: #03A9F4;">252.000₫</p>
+                                <p style={{color: `#03A9F4`,}}>252.000₫</p>
                             </div>
                         </div>
 
                       </li>
                       <li class="list-group-item">
-                        <div style="display: flex;justify-content: space-around;">
-                            <div style="width: 30%;">
+                        <div style={{display: `flex`,justifyContent: `space-around`,}}>
+                            <div style={{width: `30%`}}>
                                 <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/harry-potter-and-the-half-blood-prince.jpg?v=1636079119000" style="width:100%;"   /></div>
-                            <div style="width: 60%;">
+                            <div style={{width: `60%`,}}>
                                 <p>Harry Potter and the Half-Blood Prince</p>
-                                <p style="color: #03A9F4;">252.000₫</p>
+                                <p style={{color: `#03A9F4`,}}>252.000₫</p>
                             </div>
                         </div>
 
@@ -99,6 +96,7 @@ export default function Details(){
         </div>
     </div>
         </div>
+        <Footer/>
     </div>
     )
 
