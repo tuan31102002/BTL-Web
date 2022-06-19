@@ -3,11 +3,17 @@ import './style.css'
 import phone from '../../components/lienhe/phone.png'
 import diachi from '../../components/lienhe/diachi.svg'
 import mail from '../../components/lienhe/mail.svg'
+import Header from "../header";
+import Footer from "../footer";
+
 // class -> className , style={{width: 30% , height: `1cm`}} style="width:30%" 
 
 export default function Lienhe(){
     return(
-        <div className="container">
+    <div>
+        <Header/>
+        <div style={{padding:`1cm`}} className="container">
+            
             <div className="row1">
                 <div className="row2"  style={{width: `30%`}}>
                     <h3 style={{ marginBottom : `30px`}}>ĐỂ LẠI TIN NHẮN</h3>
@@ -63,7 +69,9 @@ export default function Lienhe(){
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.338022202922!2d105.79815902218003!3d21.019156741235737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab5dcad13da7%3A0xa6962ec4bc4a5854!2zODI4IMSQLiBMw6FuZywgTMOhbmcgVGjGsOG7o25nLCDEkOG7kW5nIMSQYSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1655090512302!5m2!1svi!2s"
             width="100%" height="300" style="border:0; margin-top: 1cm;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+          
         </div>
-        
+          <Footer/>
+    </div>     
     )
 }

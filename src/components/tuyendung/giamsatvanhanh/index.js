@@ -1,9 +1,12 @@
 import React from "react";
-
+import Header from "../../header";
+import Footer from "../../footer";
 
 export default function Giamsatvanhanh(){
     return(
-        <div style={{marginLeft:`30%`,marginRight:`30%`}}>
+    <div>
+        <Header/>
+        <div style={{marginLeft:`30%`,marginRight:`30%`,marginTop:`1cm`,marginBottom:`1cm`}}>
             <h3>TUYỂN DỤNG NHÂN VIÊN NAM, NỮ KIỂM TRA CHẤT LƯỢNG (QC)</h3>
             <p>Thời gian làm việc: 7h45 – 17h30. Nghỉ trưa 1,5h. Tháng nghỉ 2 ngày có lương</p>
             <h3>Mô tả công việc:</h3>
@@ -31,5 +34,7 @@ export default function Giamsatvanhanh(){
             <li><b>Hình Thức ứng tuyển: </b>Gửi CV về mail: tienthobook@gmail.com (Tiêu đề mail ghi rõ: Họ tên_Vị trí
                 ứng tuyển)</li>
         </div>
+        <Footer/>
+    </div>
     )
 }

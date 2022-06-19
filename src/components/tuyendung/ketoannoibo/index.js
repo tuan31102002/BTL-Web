@@ -1,9 +1,12 @@
 import React from "react";
-
+import Header from "../../header";
+import Footer from "../../footer";
 
 export default function Ketoannoibo(){
     return(
-        <div style={{marginLeft:`30%`,marginRight:`30%`}}>
+    <div>
+        <Header/>
+        <div style={{marginLeft:`30%`,marginRight:`30%`,marginTop:`1cm`,marginBottom:`1cm`}}>
             <h1>TUYỂN DỤNG KẾ TOÁN NỘI BỘ</h1>
             <p>1.&emsp;	&emsp;Quản lý trực tiếp: Giám đốc nhà sách</p>
             <p>I.&emsp;	&emsp;Nhiệm vụ cụ thể</p>
@@ -35,6 +38,8 @@ export default function Ketoannoibo(){
 
             <li><b>Liên hệ phòng nhân sự :</b> Thủy: 0936239484 hoặc Thu: 0329396679 </li>
             <li><b>Hình Thức ứng tuyển: </b>Gửi CV về mail: tienthobook@gmail.com (Tiêu đề mail ghi rõ: Họ tên_Vị trí ứng tuyển)</li>
+        </div>
+        <Footer/>
         </div>
     )
 }

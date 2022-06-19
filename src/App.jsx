@@ -16,6 +16,8 @@ import Dangnhap from './components/dangnhap';
 import Gioithieu from './components/gioithieu';
 import Troligiamdoc from './components/tuyendung/troligiamdoc';
 import Nhanvienkiemke from './components/tuyendung/nhanvienkiemke';
+import Cart from './components/cart';
+import Thanhtoan from './components/thanhtoan';
 
 
 
@@ -45,6 +47,9 @@ function App() {
     <Route path='/dangki' element={<Dangki/>}></Route>
     <Route path='/dangnhap' element={<Dangnhap/>}></Route>
     <Route path='/gioithieu' element={<Gioithieu/>}></Route>
+    <Route path='/cart' element={<Cart/>}></Route>
+    <Route path='/thanhtoan' element={<Thanhtoan/>}></Route>
+    
   </Routes>
   );
 

@@ -1,9 +1,12 @@
 import React from "react";
-
+import Header from "../../header";
+import Footer from "../../footer";
 
 export default function Quanliquay(){
     return(
-        <div style={{marginLeft:`30%`,marginRight:`30%`}}>
+        <div>
+          <Header/>
+        <div style={{marginLeft:`30%`,marginRight:`30%`,marginTop:`1cm`,marginBottom:`1cm`}}>
             <h3>NHÀ SÁCH TIẾN THỌ THÔNG BÁO TUYỂN DỤNG QUẢN LÝ QUẦY KHÔNG ÁP KPI</h3>
             <p>-    Lương từ 9- 11 triệu + hỗ trợ ăn trưa</p>
             <p>-    Thời gian làm việc linh hoạt. Tháng nghỉ 2 ngày.</p>
@@ -37,6 +40,8 @@ export default function Quanliquay(){
             <p>- Cơ sở 3: 424 Nguyễn Trãi, Thanh Xuân, Hà Nội</p>
             <p>- Cơ sở 4: 697 Giải Phóng, Hoàng Mai, Hà Nội</p>
             <li><b>Liên hệ phòng nhân sự :</b>  Liên hệ: Phòng nhân sự: Thủy 0936239484 hoặc Thu 0329396679 • Hình thức ứng tuyển: Gửi CV về mail: tienthobook@gmail.com (Tiêu đề ghi rõ vị trí ứng tuyển) </li>
+        </div>
+        <Footer/>
         </div>
     )
 }
