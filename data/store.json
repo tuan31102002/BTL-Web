@@ -1,5 +1,5 @@
 {
-    "truyenThieuNhi": [
+    "products": [
         {
             "id" : 1,
             "name" : "Doraemon Truyện Ngắn Tập 7",
@@ -47,57 +47,202 @@
             "name" : "Doraemon Học Tập",
             "price" : 40 ,
             "image" : "h61"
-        }
-    ],
+        },
+    
 
-    "sachGiaoKhoa": [
+    
         {
-            "id" : 1,
+            "id" : 9,
             "name" : "10 Chuyên Đề Bồi Dưỡng",
             "price" : 27 ,
             "image" : "h14"
         },
         {
-            "id" : 2,
+            "id" : 10,
             "name" : "Tiếng Anh 8 - Tập 1",
             "price" : 34 ,
             "image" : "h15"
         },
         {
-            "id" : 3,
+            "id" : 11,
             "name" : "Tiếng Anh 9 - Tập 2",
             "price" : 107 ,
             "image" : "h16"
         },
         {
-            "id" : 4,
+            "id" : 12,
             "name" : "Bộ SGK lớp 8",
             "price" : 103 ,
             "image" : "h17"
         },        
         {
-            "id" : 5,
+            "id" : 13,
             "name" : "150 Bài Tập Tiếng Việt 4",
             "price" : 44 ,
             "image" : "h18"
         },
         {
-            "id" : 6,
+            "id" : 14,
             "name" : "150 Bài Văn Hay Lớp 3",
             "price" : 39 ,
             "image" : "h19"
         },
         {
-            "id" : 7,
+            "id" : 15,
             "name" : "155 Bài Làm Văn Tiếng Việt 4",
             "price" : 43 ,
             "image" : "h20"
         },
         {
-            "id" : 8,
+            "id" : 16,
             "name" : "155 Bài Làm Văn Tiếng Việt 5",
             "price" : 40 ,
             "image" : "h21"
-        }
+        },
+        {
+            "id" : 17,
+            "name" : "Xe Đua Địa Hình Điều Khiển",
+            "price" : 86 ,
+            "image" : "h44"
+        },
+        {
+            "id" : 18,
+            "name" : "Ống Chì Guangbo (36 màu)",
+            "price" : 22 ,
+            "image" : "h45"
+        },
+        {
+            "id" : 19,
+            "name" : "Bút Sáp Màu (10 màu)",
+            "price" : 10 ,
+            "image" : "h46"
+        },
+        {
+            "id" : 20,
+            "name" : "Bút Sáp Màu G-star",
+            "price" : 51 ,
+            "image" : "h47" 
+        },
+        {
+            "id" : 21,
+            "name" : "Bút Xóa Nước",
+            "price" : 15 ,
+            "image" : "h48" 
+        },
+        {
+            "id" : 22,
+            "name" : "Sổ Lò Xo Cool B5 200 Trang",
+            "price" : 35 ,
+            "image" : "h48" 
+        },
+        {
+            "id" : 23,
+            "name" : "Bút Chì Màu 18 Màu Có Tẩy",
+            "price" : 33 ,
+            "image" : "h48" 
+        },
+        {
+            "id" : 24,
+            "name" : "Chì Màu Swaans 12 Màu Dài",
+            "price" : 51 ,
+            "image" : "h49" 
+        },
+        {
+            "id" : 25,
+            "name" : "Xe Đua Địa Hình Điều Khiển",
+            "price" : 204 ,
+            "image" : "h34" 
+        },
+        {
+            "id" : 26,
+            "name" : "Đồ Chơi Xe Sắt Cứu Hỏa",
+            "price" : 87 ,
+            "image" : "h35" 
+        },
+        {
+            "id" : 27,
+            "name" : "Máy Bay Điều Khiển Từ Xa",
+            "price" : 133 ,
+            "image" : "h36" 
+        },
+        {
+            "id" : 28,
+            "name" : "Vali Bác Sĩ Mika Xanh",
+            "price" : 164 ,
+            "image" : "h37" 
+        },
+        {
+            "id" : 29,
+            "name" : "Mô Hình Lego Minecraft",
+            "price" : 240 ,
+            "image" : "h38" 
+        },
+        {
+            "id" : 30,
+            "name" : "Mô Hình Lego Friends",
+            "price" : 173 ,
+            "image" : "h39" 
+        },
+        {
+            "id" : 31,
+            "name" : "Con Quay Vô Cực",
+            "price" : 93 ,
+            "image" : "h40" 
+        },
+        {
+            "id" : 32,
+            "name" : "Đồ Chơi Con Quay",
+            "price" : 93 ,
+            "image" : "h41" 
+        },
+        {
+            "id" : 33,
+            "name" : "Bút Bi Hoa Hướng Dương",
+            "price" : 27 ,
+            "image" : "h24" 
+        },  
+        {
+            "id" : 34,
+            "name" : "Giá Đựng Bút Gỗ HX1039",
+            "price" : 301 ,
+            "image" : "h25" 
+        },  
+        {
+            "id" : 35,
+            "name" : "Khay Đựng Bút Sắt Comic",
+            "price" : 34 ,
+            "image" : "h26" 
+        },  
+        {
+            "id" : 36,
+            "name" : "Ống Cắm Bút Đôi",
+            "price" : 27 ,
+            "image" : "h27" 
+        },  
+        {
+            "id" : 37,
+            "name" : "Bút Kĩ Thuật sensor Xanh Nhạt",
+            "price" : 42 ,
+            "image" : "h28" 
+        },  
+        {
+            "id" : 38,
+            "name" : "Bút Bi Exam Grade Xanh",
+            "price" : 22 ,
+            "image" : "h29" 
+        },  
+        {
+            "id" : 39,
+            "name" : "Bút Mài Thầy Ánh SH0234",
+            "price" : 42 ,
+            "image" : "h30" 
+        }, 
+         {
+            "id" : 40,
+            "name" : "Bút Mài Thầy Ánh SH022",
+            "price" : 83 ,
+            "image" : "h31" 
+        }  
+
     ]
 }
