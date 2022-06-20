@@ -7,14 +7,20 @@ import user from '../../components/header/assets/user.png'
 
 
 const li ={
-    listStyle: `none`
+    fontWeight:`500`,fontSize: `14px`
+}
+const font ={
+    fontSize: `14px`,
+    color:`#fff`,
+    fontWeight:`500`,
+    
 }
 
 
 export default function Header(){
     return(
         <div>
-        <div className="container" style={{marginTop: `10px`}}>
+        <div  className="container" >
             <div className="row">
                 <div style={{width:`20%`}}>
                     <a href="/#"><img  style={{width: `200px`, height:`70px`}} src={logo}  alt="logo.webp"/></a>
@@ -38,12 +44,12 @@ export default function Header(){
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown" href="/#"><img style={{width:`40px`, height:`40px`}} src={user} alt="user"/></a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li style={li}><a className="dropdown-item" href="/dangnhap">Đăng Nhập</a></li>
-                            <li style={li}><a className="dropdown-item" href="/dangky">Đăng Ký</a></li>
+                            <li ><a style={li} className="dropdown-item" href="/dangnhap">Đăng Nhập</a></li>
+                            <li ><a style={li} className="dropdown-item" href="/dangki">Đăng Ký</a></li>
                         </ul>
                      </li>
 
-                    <li style={li} className="nav-item dropdown">
+                    <li  className="nav-item dropdown">
                         <a className="nav-link dropdown" href="/cart"><img style={{width:`40px`, height:`40px`}} src={cart} alt="giỏ hàng"/></a>
                          </li>
                         
@@ -56,8 +62,8 @@ export default function Header(){
 
         <div style={{backgroundColor: `#03A9F4`,color: `aliceblue`,}}>
             <div className="container" style={{display: `flex`, justifyContent: `space-around`,}}>
-                <li style={li} className="nav-item dropdown ">
-                    <a className="nav-link dropdown" href="/">
+                <li className="nav-item dropdown ">
+                    <a style={font} className="nav-link dropdown" href="/">
                          TRANG CHỦ
                     </a> 
                     
@@ -65,24 +71,24 @@ export default function Header(){
 
                  </li>
 
-                <li style={li} className="nav-item dropdown ">
-                    <a className="nav-link dropdown" href="/">
+                <li  className="nav-item dropdown ">
+                    <a style={font}  className="nav-link dropdown" href="/gioithieu">
                          GIỚI THIỆU
                     </a>
                     
                 </li>
-                <li style={li} className="nav-item dropdown ">
-                    <a className="nav-link dropdown" href="/#">
+                <li className="nav-item dropdown ">
+                    <a style={font} className="nav-link dropdown" href="/#">
                         SẢN PHẨM
                     </a>
                  <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li style={li}><a className="dropdown-item" href="/#">Kho Sách</a></li>
-                    <li style={li}><a className="dropdown-item" href="/#">Sách Tham Khảo</a></li>
-                    <li style={li}><a className="dropdown-item" href="/#">Dụng Cụ Học Tập</a></li>
-                    <li style={li}><a className="dropdown-item" href="/#">Văn Phòng Phẩm</a></li>
-                    <li style={li}><a className="dropdown-item" href="/#">Đồ Chơi </a></li>
-                    <li style={li}><a className="dropdown-item" href="/#">Lịch Tết</a></li>
-                    <li style={li}><a className="dropdown-item" href="/#">Quà Tặng & Phụ Kiện</a></li>
+                    <li><a style={li} className="dropdown-item" href="/#">Kho Sách</a></li>
+                    <li><a style={li} className="dropdown-item" href="/#">Sách Tham Khảo</a></li>
+                    <li><a style={li} className="dropdown-item" href="/#">Dụng Cụ Học Tập</a></li>
+                    <li><a style={li} className="dropdown-item" href="/#">Văn Phòng Phẩm</a></li>
+                    <li><a style={li} className="dropdown-item" href="/#">Đồ Chơi </a></li>
+                    <li><a style={li} className="dropdown-item" href="/#">Lịch Tết</a></li>
+                    <li><a style={li} className="dropdown-item" href="/#">Quà Tặng & Phụ Kiện</a></li>
                  </ul>
 
                 </li>
@@ -99,21 +105,21 @@ export default function Header(){
                 </li> */}
 
                 <li style={li} className="nav-item dropdown ">
-                    <a className="nav-link dropdown" href="/#">
+                    <a style={font} className="nav-link dropdown" href="/#">
                      TUYỂN DỤNG
                      </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li style={li}><a className="dropdown-item" href="/ketoannoibo">Kế Toán Nội Bộ</a></li>
-                        <li style={li}><a className="dropdown-item" href="/giamsatvanhanh">Giám Sát Vận Hành</a></li>
+                            <li><a style={li} className="dropdown-item" href="/ketoannoibo">Kế Toán Nội Bộ</a></li>
+                            <li ><a style={li} className="dropdown-item" href="/giamsatvanhanh">Giám Sát Vận Hành</a></li>
 
-                        <li style={li}><a className="dropdown-item" href="/quanliquay">Quản Lí Quầy</a></li>
-                        <li style={li}><a className="dropdown-item" href="/troligiamdoc">TRỢ LÍ GIÁM ĐỐC</a></li>
-                        <li style={li}><a className="dropdown-item" href="/nhanvienthumua">NHÂN VIÊN THU MUA</a></li>
-                        <li style={li}><a className="dropdown-item" href="/nhanvienkiemke">Nhân Viên Kiểm Kê</a></li>
+                            <li><a style={li} className="dropdown-item" href="/quanliquay">Quản Lí Quầy</a></li>
+                            <li><a style={li} className="dropdown-item" href="/troligiamdoc">TRỢ LÍ GIÁM ĐỐC</a></li>
+                            <li><a style={li} className="dropdown-item" href="/nhanvienthumua">NHÂN VIÊN THU MUA</a></li>
+                            <li><a style={li} className="dropdown-item" href="/nhanvienkiemke">Nhân Viên Kiểm Kê</a></li>
                     </ul>
                  </li>
                 <li style={li} className="nav-item dropdown ">
-                     <a className="nav-link dropdown" href="/lienhe">
+                     <a style={font} className="nav-link dropdown" href="/lienhe">
                       LIÊN HỆ
                     </a>
 

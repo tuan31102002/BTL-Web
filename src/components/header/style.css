@@ -16,11 +16,11 @@
     display: inline-block;
 }
 
-.dropdown-menu {
+/* .dropdown-menu {
     display: none;
     list-style: none;
-    background-color: rgb(255, 255, 255);
-}
+   
+} */
 
 .dropdown:hover .dropdown-menu {
     display: block;

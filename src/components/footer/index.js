@@ -1,5 +1,4 @@
 import React from "react";
-import './footer.css';
 import fb from '../../components/footer/assets/fb.png'
 import ig from '../../components/footer/assets/instagram.png'
 import Logo from '../../components/footer/assets/logo.webp'

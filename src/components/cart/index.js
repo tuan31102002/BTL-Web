@@ -34,9 +34,10 @@ export default function Cart() {
                                     <h3>Giá</h3>
                                 </td>
                                 <td>
-                                    <h3 >Số lượng</h3>
+                                    <h3>Số lượng</h3>
                                 </td>
                             </tr>
+                            <tbody>
                             <tr>
                                 <td>
                                     <img src={anh} alt="" />
@@ -50,9 +51,10 @@ export default function Cart() {
                                     <p>125.000đ</p>
                                 </td>
                                 <td>
-                                    <p>1</p>
+                                <input style={{width:`30px`,outline:`none`}}type="number" value={1} min={1} ></input>
                                 </td>
                             </tr>
+                            </tbody>
                         </table>
                     </form>
                 </div>
