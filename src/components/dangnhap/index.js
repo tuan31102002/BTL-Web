@@ -4,6 +4,7 @@ import fb from '../../components/dangnhap/assets/fb-btn.svg'
 import gp from '../../components/dangnhap/assets/gp-btn.svg'
 import Header from "../header";
 import Footer from "../footer";
+import { Link } from "react-router-dom";
 const button = {
   color: `#FFFFF`,
   background:`#03a9F4`, 
@@ -38,7 +39,7 @@ export default function Dangnhap(){
           </div>
         </div>
         <div className="d-grid gap-2 col-6 mx-auto">
-          <button style={{backgroundColor:`#03A9F4`,borderRadius:`0px` ,  type : "button"}}className="btn btn-primary" >ĐĂNG NHẬP</button>
+         <Link to="/admin" ><button style={{backgroundColor:`#03A9F4`,borderRadius:`0px` ,  type : "button"}}className="btn btn-primary" >ĐĂNG NHẬP</button></Link>
           
         </div>
       </form>

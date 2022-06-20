@@ -24,7 +24,7 @@ export default function Header(){
         <div  className="container" >
             <div className="row">
                 <div style={{width:`20%`}}>
-                    <a href="/#"><img  style={{width: `200px`, height:`70px`}} src={logo}  alt="logo.webp"/></a>
+                    <a href="/"><img  style={{width: `200px`, height:`70px`}} src={logo}  alt="logo.webp"/></a>
                     
                 </div>
                 <div style={{width:`47%`,}}>
@@ -64,7 +64,7 @@ export default function Header(){
         <div style={{backgroundColor: `#03A9F4`,color: `aliceblue`,}}>
             <div className="container" style={{display: `flex`, justifyContent: `space-around`,}}>
                 <li className="nav-item dropdown ">
-                <Link  style={font}  className="nav-link dropdown" to="/#" >TRANG CHỦ</Link>
+                <Link  style={font}  className="nav-link dropdown" to="/" >TRANG CHỦ</Link>
                     
 
 
@@ -78,25 +78,25 @@ export default function Header(){
                 <li className="nav-item dropdown ">
                     <Link  style={font}  className="nav-link dropdown" to="/shop" >SẢN PHẨM</Link>
                  {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a style={li} className="dropdown-item" href="/#">Kho Sách</a></li>
-                    <li><a style={li} className="dropdown-item" href="/#">Sách Tham Khảo</a></li>
-                    <li><a style={li} className="dropdown-item" href="/#">Dụng Cụ Học Tập</a></li>
-                    <li><a style={li} className="dropdown-item" href="/#">Văn Phòng Phẩm</a></li>
-                    <li><a style={li} className="dropdown-item" href="/#">Đồ Chơi </a></li>
-                    <li><a style={li} className="dropdown-item" href="/#">Lịch Tết</a></li>
-                    <li><a style={li} className="dropdown-item" href="/#">Quà Tặng & Phụ Kiện</a></li>
+                    <li><a style={li} className="dropdown-item" href="/">Kho Sách</a></li>
+                    <li><a style={li} className="dropdown-item" href="/">Sách Tham Khảo</a></li>
+                    <li><a style={li} className="dropdown-item" href="/">Dụng Cụ Học Tập</a></li>
+                    <li><a style={li} className="dropdown-item" href="/">Văn Phòng Phẩm</a></li>
+                    <li><a style={li} className="dropdown-item" href="/">Đồ Chơi </a></li>
+                    <li><a style={li} className="dropdown-item" href="/">Lịch Tết</a></li>
+                    <li><a style={li} className="dropdown-item" href="/">Quà Tặng & Phụ Kiện</a></li>
                  </ul> */}
 
                 </li>
                  {/* <li style={li} className="nav-item dropdown ">
-                    <a className="nav-link dropdown" href="/#">
+                    <a className="nav-link dropdown" href="/">
                     TƯ VẤN MUA SẮM
                      </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li style={li}><a className="dropdown-item" href="/#">Review Sách</a></li>
-                        <li style={li}><a className="dropdown-item" href="/#">Đồ Chơi Cho Bé</a></li>
-                        <li style={li}><a className="dropdown-item" href="/#">Đồ Dùng Văn Phòng Phẩm</a></li>
-                        <li style={li}><a className="dropdown-item" href="/#">Khuyến Mại Và Ưu Đãi</a></li>
+                        <li style={li}><a className="dropdown-item" href="/">Review Sách</a></li>
+                        <li style={li}><a className="dropdown-item" href="/">Đồ Chơi Cho Bé</a></li>
+                        <li style={li}><a className="dropdown-item" href="/">Đồ Dùng Văn Phòng Phẩm</a></li>
+                        <li style={li}><a className="dropdown-item" href="/">Khuyến Mại Và Ưu Đãi</a></li>
                      </ul>
                 </li> */}
 

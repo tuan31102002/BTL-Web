@@ -19,6 +19,7 @@ import Nhanvienkiemke from './components/tuyendung/nhanvienkiemke';
 import Cart from './components/cart';
 import Thanhtoan from './components/thanhtoan';
 import Details from './components/details'
+import Trangquantri from './components/trangquantri';
 
 
 
@@ -51,7 +52,7 @@ function App() {
     <Route path='/cart' element={<Cart/>}></Route>
     <Route path='/thanhtoan' element={<Thanhtoan/>}></Route>
     <Route path='/shop/:productId' element={<Details/>}></Route>
-
+    <Route path='/admin' element={<Trangquantri/>}></Route>
     
   </Routes>
   );

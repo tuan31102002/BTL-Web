@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "./style.css";
 import Header from "../header";
 import Footer from "../footer";
-// import axios from 'axios';
+import axios from 'axios';
 
 import jsonStore from "../../data/store.json"
 import productsData from "../../productsData";
