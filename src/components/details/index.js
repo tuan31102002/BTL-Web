@@ -37,7 +37,7 @@ export default function Details(){
                     
                     <h3 className="center-text">{thisProduct.price}.000₫</h3>
                     <br/>
-                    <button type="button" className="btn btn-primary btn-lg" style={{backgroundColor:`#03A9F4`, }}>THÊM VÀO GIỎ</button>
+                    <button type="button" className="btn btn-primary btn-lg" style={{backgroundColor:`#03A9F4`, borderRadius:`0px` }}>THÊM VÀO GIỎ</button>
                 </div>
             </div>
             <div style={{width: `20%`,}}>
