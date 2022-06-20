@@ -18,6 +18,7 @@ import Troligiamdoc from './components/tuyendung/troligiamdoc';
 import Nhanvienkiemke from './components/tuyendung/nhanvienkiemke';
 import Cart from './components/cart';
 import Thanhtoan from './components/thanhtoan';
+import Details from './components/details'
 
 
 
@@ -49,6 +50,8 @@ function App() {
     <Route path='/gioithieu' element={<Gioithieu/>}></Route>
     <Route path='/cart' element={<Cart/>}></Route>
     <Route path='/thanhtoan' element={<Thanhtoan/>}></Route>
+    <Route path='/shop/:productId' element={<Details/>}></Route>
+
     
   </Routes>
   );

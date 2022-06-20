@@ -4,6 +4,7 @@ import cart from '../../components/header/assets/cart.png'
 import logo from '../../components/header/assets/logo.webp'
 import phone from '../../components/header/assets/phone.png'
 import user from '../../components/header/assets/user.png'
+import { Link } from "react-router-dom";
 
 
 const li ={
@@ -66,13 +67,14 @@ export default function Header(){
                  </li>
 
                 <li style={li} className="nav-item dropdown ">
-                    <a className="nav-link dropdown" href="/">
+                    {/* <a className="nav-link dropdown" href="/">
                          GIỚI THIỆU
-                    </a>
+                    </a> */}
+                    <Link to="/gioithieu" >Gioi thieu</Link>
                     
                 </li>
                 <li style={li} className="nav-item dropdown ">
-                    <a className="nav-link dropdown" href="/#">
+                    <a className="nav-link dropdown" href="/shop">
                         SẢN PHẨM
                     </a>
                  <ul className="dropdown-menu" aria-labelledby="navbarDropdown">

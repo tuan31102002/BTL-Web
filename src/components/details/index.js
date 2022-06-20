@@ -1,10 +1,16 @@
 import React from "react";
 
-import dr from '../../components/details/assets/doremon.svg'
+// import dr from '../../components/details/assets/doremon.svg'
 import Header from "../header";
 import Footer from "../footer";
+import h1 from '../../components/home/assets/home1.png'
+import { useParams } from "react-router-dom";
+// import jsonProduct from "../../data/store.json"
+import productsData from "../../productsData";
 
 export default function Details(){
+    const {productId} = useParams()
+    const thisProduct = productsData.find(prod => prod.id === productId)
     return(
         <div>
             <Header/>
@@ -12,18 +18,18 @@ export default function Details(){
         <div style={{display: `flex`,justifyContent: `space-between`}}>
 
             <div style={{width: `25%`,}}>
-                <img src="nhan-chia (1).webp" style={{width:`100%`,}}   alt="Doraemon Học Tập - Nhân Chia" />
+                <img src={`${thisProduct.url}`} style={{width:`100%`,}}   alt="Doraemon Học Tập - Nhân Chia" />
             </div>
             <div style={{width: `50%`,}}>
                 <div style={{fontSize:`13px`,  }}>
-                    <h2>Doraemon Học Tập - Nhân Chia</h2>
-                    <img src="star-solid.svg" style={{width:`20px`,}} alt=""/><img src="star-solid.svg" style={{width:`20px`,}} alt=""/><img src="star-solid.svg" style={{width:`20px`,}} alt=""/><img src="star-solid.svg"style={{width:`20px`,}} alt=""/><img src="star-solid.svg" style={{width:`20px`,}} alt=""/>
+                    <h2>{thisProduct.name}</h2>
+                    {/* <img src="star-solid.svg" style={{width:`20px`,}} alt=""/><img src="star-solid.svg" style={{width:`20px`,}} alt=""/><img src="star-solid.svg" style={{width:`20px`,}} alt=""/><img src="star-solid.svg"style={{width:`20px`,}} alt=""/><img src="star-solid.svg" style={{width:`20px`,}} alt=""/>
                     <p>Mã sản phẩm: &emsp;&emsp;<span style={{color: `#03A9F4`,}}> DRMHTNC </span></p>
                     <p>Thương hiệu: &emsp;&emsp;<span style={{color: `#03A9F4`,}}> NXB Kim Đồng </span></p>
-                    <p>Tình trạng : &emsp;&emsp;<span style={{color: `#03A9F4`,}}> Còn hàng </span></p>
+                    <p>Tình trạng : &emsp;&emsp;<span style={{color: `#03A9F4`,}}> Còn hàng </span></p> */}
 
                     
-                    <h3 className="center-text">30.000₫</h3>
+                    <h3 className="center-text">{thisProduct.price}.000₫</h3>
                     <br/>
                     <button type="button" className="btn btn-primary btn-lg" style={{backgroundColor:`#03A9F4`, }}>THÊM VÀO GIỎ</button>
                 </div>
@@ -37,17 +43,18 @@ export default function Details(){
                       <li className="list-group-item">
                         <div style={{display: `flex`,justifyContent: `space-around`,}}>
                             <div style={{width: `30%`}}>
-                                <img src="doremon.svg" style="width:100%;"   alt="Doraemon Học Tập - Nhân Chia"/></div>
+                                <img src={h1} style={{width: `100%`}}   alt="Doraemon Học Tập - Nhân Chia"/></div>
                             <div style={{width: `60%`}}>
                                 <p>Endless Field</p>
-                                <p style="color: #03A9F4;">121.500₫ <del style="color:#8a8a8a ;">135.000₫</del></p>
+                                <p style={{color: `#03A9F4`}}>121.500₫ <del style={{color: `#8a8a8a`}}>135.000₫</del></p>
                             </div>
                         </div>
                         </li>
                       <li className="list-group-item">
                         <div style={{display: `flex`,justifyContent: `space-around`,}}>
                             <div style={{width: `30%`,}}>
-                                <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/8-7b2187e3-067b-46f9-bd25-741a3323fd2e.jpg?v=1636034940000" style="width:100%;"   /></div>
+                                <img src={h1} style={{width: `100%`}} alt=""/>
+                            </div>
                             <div style={{width: `60%`,}}>
                                 <p >Ticket To Childhood</p>
                                 <p style={{color: `#03A9F4`,}}>85.500₫ <del  style={{color:`#8a8a8a`}} >95.000₫</del></p>
@@ -58,7 +65,8 @@ export default function Details(){
                       <li className="list-group-item">
                         <div style={{display: `flex`,justifyContent: `space-around`,}}>
                             <div style={{width: `30%`,}}>
-                                <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/7-77081ea0-491c-4f92-afb5-a0d6937ffa47.jpg?v=1636025803000" style="width:100%;"   /></div>
+                            <img src={h1} style={{width: `100%`}} alt=""/>
+                        </div>
                             <div style={{width: `60%`,}}>
                                 <p>Harry Potter and the Philosopher's Stone Ravenclaw Edition - Paperback</p>
                                 <p style={{color: `#03A9F4`,}}>240.000₫</p>
@@ -67,9 +75,10 @@ export default function Details(){
 
                       </li>
                       <li class="list-group-item">
-                        <div style={{display: flex,justifyContent: space-around,}}>
+                        <div style={{display: `flex`,justifyContent: `space-around`,}}>
                             <div style={{width: `30%`,}}>
-                                <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/harry-potter-and-the-deathly-hallows-paper-back-1.jpg?v=1636080026000" style="width:100%;"   /></div>
+                            <img src={h1} style={{width: `100%`}} alt=""/>
+                        </div>
                             <div style={{width: `60%`}}>
                                 <p>Harry Potter and the Deathly Hallows (Paperback)</p>
                                 <p style={{color: `#03A9F4`,}}>252.000₫</p>
@@ -80,7 +89,8 @@ export default function Details(){
                       <li class="list-group-item">
                         <div style={{display: `flex`,justifyContent: `space-around`,}}>
                             <div style={{width: `30%`}}>
-                                <img src="https://bizweb.dktcdn.net/thumb/medium/100/386/441/products/harry-potter-and-the-half-blood-prince.jpg?v=1636079119000" style="width:100%;"   /></div>
+                            <img src={h1} style={{width: `100%`}} alt=""/>
+                        </div>
                             <div style={{width: `60%`,}}>
                                 <p>Harry Potter and the Half-Blood Prince</p>
                                 <p style={{color: `#03A9F4`,}}>252.000₫</p>

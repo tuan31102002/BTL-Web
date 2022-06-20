@@ -1,11 +1,12 @@
 import React, { useState,useEffect} from "react";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "./style.css";
 import Header from "../header";
 import Footer from "../footer";
 import axios from 'axios';
 
 import jsonStore from "../../data/store.json"
+import productsData from "../../productsData";
 
 export default function Shop() {
     
@@ -74,33 +75,38 @@ export default function Shop() {
                     <div style={{ width: `75%` }}>
                         <div className="roww6">
                             {
-                                products.map(p => 
-                                    <div style={{ width: `25%`, borderStyle: `double` }}>
-                                        <div className="container">
-                                            <img style={{ width: `100%` }} src={`${p.url}`} alt="" />
-                                            <div style={{ textAlign: `center` }}>
-                                                <p>{p.name}</p>
-                                                <h5 style={{ color: `#03A9F4` }}>{p.price}.000₫</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                )
+                                // products.map(p => 
+                                //     <div style={{ width: `25%`, borderStyle: `double` }}>
+                                //         <div className="container" key={p.id}>
+                                //             <img style={{ width: `100%` }} src={`${p.url}`} alt="" />
+                                //             <div style={{ textAlign: `center` }}>
+                                //                 {/* <p>{p.name}</p> */}
+                                //                 <p>
+                                //                     <Link to={`${p.id}`}>{p.name}</Link>
+                                //                 </p>
+                                //                 <h5 style={{ color: `#03A9F4` }}>{p.price}.000₫</h5>
+                                //             </div>
+                                //         </div>
+                                //     </div>
+                                // )
                             }
 
 
 
-                            {/* {jsonStore.products.map((image, i) => (
+                            {productsData.map((p, i) => (
                                 <div  style={{ width: `25%`, borderStyle: `double` }}>
                                     <div className="container"  key={i}>
-                                        <img style={{ width: `100%` }} src={`${image.url}`} alt={image.name} key={i} />
+                                        <img style={{ width: `100%` }} src={`${p.url}`} alt={p.name} key={i} />
                                        
                                             <div style={{ textAlign: `center` }}>
-                                                <p>{image.name}</p>
-                                                <h5 style={{ color: `#03A9F4` }}>{image.price}.000₫</h5>
+                                            <p>
+                                                  <Link to={`${p.id}`}>{p.name}</Link>
+                                            </p>
+                                                <h5 style={{ color: `#03A9F4` }}>{p.price}.000₫</h5>
                                             </div>
                                     </div>
                                 </div>
-                            ))} */}
+                            ))}
                         </div>
                     </div>
                 </div>
