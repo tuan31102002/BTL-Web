@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import anh from '../../components/thanhtoan/1.webp'
 import logo from '../../components/thanhtoan/logo.webp'
 
@@ -14,7 +15,7 @@ export default function Thanhtoan(){
     
             <div style={{display: `flex`}}>
                 <h4>Thông tin nhận hàng</h4>
-                <a style={{marginLeft: `2cm`,textDecoration: `none`}}href="/dangnhap">Đăng nhập</a>
+                <Link style={{marginLeft: `2cm`,textDecoration: `none`}}to="/dangnhap">Đăng nhập</Link>
     
             </div>
             <div style={{display: `flex`}}>
@@ -166,7 +167,7 @@ export default function Thanhtoan(){
                         </table>
                     </form>
                     <div style={{display: `flex`,justifyContent:  `space-between`}}>
-                <a style={{fontSize:`15px`,color:`#EF3F3F`}} href="/cart">Quay về giỏ hàng</a>
+                <Link style={{fontSize:`15px`,color:`#EF3F3F`}} to="/cart">Quay về giỏ hàng</Link>
                 <div>
                 <button style={{color:`white`,backgroundColor: `#EF3F3F`,height:`60px`,width:`150px`,fontSize:`20px`}} className="btn btn-default" type="submit"
                     aria-label="Đặt hàng" name="subscribe">Đặt hàng

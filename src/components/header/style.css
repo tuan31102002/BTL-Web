@@ -2,9 +2,10 @@
     display: flex;
 }
 
-/* li {
+li {
     list-style: none;
-} */
+    
+}
 
 /* p {
     margin-top: 10px;
@@ -16,11 +17,7 @@
     display: inline-block;
 }
 
-/* .dropdown-menu {
-    display: none;
-    list-style: none;
-   
-} */
+
 
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -29,6 +26,7 @@
 
 
 
-.dropdown-item:hover {
+li:hover {
     color: #03A9F4;
+    
 }

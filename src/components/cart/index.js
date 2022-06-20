@@ -9,6 +9,7 @@ import tich from '../../components/cart/tich.svg'
 import phone from '../../components/cart/phone.png'
 import Header from "../header";
 import Footer from "../footer";
+import { Link } from "react-router-dom";
 
 
 export default function Cart() {
@@ -119,11 +120,11 @@ export default function Cart() {
                     </table>
                 </form>
                 <div style={{textAlign:`center`}} >
-                    <a href="/thanhtoan">< button style={{width: `500px`,  height: `46px`, marginBottom: `10px`, }}
-                        className="btn btn-primary" type="submit"> THANH TOÁN NGAY</button></a>
+                    <Link to="/thanhtoan">< button style={{width: `500px`,  height: `46px`, marginBottom: `10px`, }}
+                        className="btn btn-primary" type="submit"> THANH TOÁN NGAY</button></Link>
                 </div>
-                <div style={{ textAlign:`center` }}> <a href="/#"> <button style={{ width: `500px`, height: `46px` }} className="btn btn-outline-primary">TIẾP
-                    TỤC MUA HÀNG</button></a>
+                <div style={{ textAlign:`center` }}> <Link to="/#"> <button style={{ width: `500px`, height: `46px` }} className="btn btn-outline-primary">TIẾP
+                    TỤC MUA HÀNG</button></Link>
                 </div>
             </div>
             <div style={{ marginTop: `5cm` }}>
