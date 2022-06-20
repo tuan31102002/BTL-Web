@@ -53,7 +53,7 @@ export default function Dangki() {
                 </div>
                 <br />
                 <div classname="d-grid gap-2">
-                    <button className="btn btn-primary" style={{ width: `600px`, height: `40px`, backgroundColor: `#03a9f4`, }} type="button" >Tạo tài khoản</button>
+                    <button className="btn btn-primary" style={{ width: `600px`, height: `40px`, backgroundColor: `#03a9f4`, borderRadius:`0px`, }} type="button" >Tạo tài khoản</button>
                     {/* <a style={{ textAlign: `center`, textDecoration: `none`, color: `#03a9f4`, }} href="/#">ĐĂNG NHẬP</a> */}
                     <div style={{textAlign: `center`,}}>
                         <a style={{textDecoration: `none`, color: `#03a9f4`,}} href="/dangnhap">ĐĂNG NHẬP</a>

@@ -38,7 +38,7 @@ export default function Dangnhap(){
           </div>
         </div>
         <div className="d-grid gap-2 col-6 mx-auto">
-          <button style={{backgroundColor:`#03A9F4` ,  type : "button"}}className="btn btn-primary" >ĐĂNG NHẬP</button>
+          <button style={{backgroundColor:`#03A9F4`,borderRadius:`0px` ,  type : "button"}}className="btn btn-primary" >ĐĂNG NHẬP</button>
           
         </div>
       </form>
