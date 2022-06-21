@@ -44,9 +44,9 @@ export default function Cart() {
                                     <img src={anh} alt="" />
                                 </td>
                                 <td>
-                                    <a style={{textDecoration: `none`,color: `black`}} href="">1% & 99% - Tài Năng Mồ Hôi Và Nước Mắt</a>
+                                    <a style={{textDecoration: `none`,color: `black`}} href="/#">1% & 99% - Tài Năng Mồ Hôi Và Nước Mắt</a>
                                     <p>Thương hiệu: NXB Lao Động</p>
-                                    <a style={{textDecoration: `none`}} href="">Xóa</a>
+                                    <a style={{textDecoration: `none`}} href="/#">Xóa</a>
                                 </td>
                                 <td>
                                     <p>125.000đ</p>
@@ -76,7 +76,7 @@ export default function Cart() {
                             <p className="card-text"> <img src={phone} width="30px" height="30px" alt="" /> 094.1234.828</p>
                             <p className="card-text"> <img src={fb} width="40px" height="40px" alt="" /> Chúng tôi trên Facebook </p>
                             <p className="card-text"> Giờ mở cửa (08:00 - 22:00)</p>
-                            <a style={{ textDecoration: `none` }} href="#" className="cart-link">Liên hệ</a>
+                            <a style={{ textDecoration: `none` }} href="/#" className="cart-link">Liên hệ</a>
                         </div>
                     </div>
 

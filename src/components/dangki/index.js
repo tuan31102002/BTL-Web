@@ -13,8 +13,8 @@ export default function Dangki() {
             <Header/>
             <h3 style= {{textAlign:`center`}}>ĐĂNG KÍ TÀI KHOẢN </h3>
             <div classname="banner" style={{display:`flex`,maxWidth:`130px`,marginLeft:`16.5cm`,marginRight:`16.5cm`,borderSpacing:`2cm`,}}>
-                <img src={fb} />
-                <img src={gp} />
+                <img src={fb} alt="" />
+                <img src={gp} alt="" />
             </div>
             <div style={{marginLeft:`12.5cm`,marginRight:`12.5cm`,}} >
                 <div style={{display:`flex`}} >

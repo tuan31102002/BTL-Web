@@ -16,7 +16,7 @@ import ic from '../../components/details/assets/star-solid.svg'
 
 export default function Details(){
     const {productId} = useParams()
-    const thisProduct = productsData.find(prod => prod.id === productId)
+    const thisProduct = productsData.products.find(prod => prod.id === productId)
     return(
         <div>
             <Header/>

@@ -1,26 +1,28 @@
-import React, { useState,useEffect} from "react";
+import React from "react";
+// import React, { useState,useEffect} from "react";
+
 import { Link } from 'react-router-dom';
 import "./style.css";
 import Header from "../header";
 import Footer from "../footer";
-import axios from 'axios';
+// import axios from 'axios';
 
-import jsonStore from "../../data/store.json"
+// import jsonStore from "../../data/store.json"
 import productsData from "../../productsData";
 
 export default function Shop() {
     
-    const [products, setProducts] = useState ([])
+    // const [products, setProducts] = useState ([])
 
-    useEffect(() => {
-        axios.get('http://localhost:8000/products').then(res => {
-            // console.log(res)
-            setProducts(res.data)
-        })
-        .catch(err => {
-            console.log(err)
-        })
-    })
+    // useEffect(() => {
+    //     axios.get('http://localhost:8000/products').then(res => {
+    //         // console.log(res)
+    //         setProducts(res.data)
+    //     })
+    //     .catch(err => {
+    //         console.log(err)
+    //     })
+    // })
     
     return (
 
@@ -93,7 +95,7 @@ export default function Shop() {
 
 
 
-                            {productsData.map((p, i) => (
+                            {productsData.products.map((p, i) => (
                                 <div  style={{ width: `25%`, borderStyle: `double` }}>
                                     <div className="container"  key={i}>
                                         <img style={{ width: `100%` }} src={`${p.url}`} alt={p.name} key={i} />

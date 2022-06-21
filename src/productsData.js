@@ -1,4 +1,5 @@
-export default [
+const data = {
+    products:[
     {
         "id" : "1",
         "name" : "Doraemon Truyện Ngắn Tập 7",
@@ -242,4 +243,7 @@ export default [
         "price" : 83 ,
         "url" : "../assets/images/slider/home31.png"
     }  
-  ];
+  ]
+}
+
+export default data

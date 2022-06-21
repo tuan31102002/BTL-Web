@@ -110,7 +110,7 @@ export default function Thanhtoan(){
                                     <img style={{width:`50px`,height:`50px`}} src={anh} alt="" />
                                 </td>
                                 <td>
-                                    <a style={{textDecoration: `none`,color: `black`}} href="">1% & 99% - Tài Năng Mồ Hôi Và Nước Mắt</a>
+                                    <a style={{textDecoration: `none`,color: `black`}} href="/#">1% & 99% - Tài Năng Mồ Hôi Và Nước Mắt</a>
                                     <p>Thương hiệu: NXB Lao Động</p>
                                    
                                 </td>
