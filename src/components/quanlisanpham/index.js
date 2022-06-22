@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import admin from '../../components/trangquantri/admin.jpg'
 import productsData from "../../productsData"
-import Quanlisanpham from "../quanlisanpham";
 
 const td = {
     border: `1px solid black`,
@@ -15,7 +14,7 @@ const di = {
     textAlign: `center`, color: `white`, fontSize: `50px`,
 }
 
-export default function Trangquantri() {
+export default function Quanlisanpham() {
     return (
         <div>
             <div className="wrapper">
@@ -25,8 +24,8 @@ export default function Trangquantri() {
 
                     <div>
                         <ol style={{ backgroundColor: `white`, }} className="breadcrumb float-sm-right">
-                            <li className="breadcrumb-item"><a style={{textDecoration: `none` , fontSize: `30px`}} href="/admin">Home</a></li>
-                            {/* <li style={li} className="breadcrumb-item active">Quản lí sản phẩm</li> */}
+                        <li className="breadcrumb-item"><a style={{textDecoration: `none` , fontSize: `30px`}} href="/admin">Home</a></li>
+                            <li style={li} className="breadcrumb-item active">Quản lý sản phẩm</li>
                         </ol>
                     </div>
                 </nav>
@@ -58,18 +57,16 @@ export default function Trangquantri() {
                                 <li className="nav-item">
                                     <a href="" className="nav-link">
                                         <i className="nav-icon fas fa-th"></i>
-                                        <Link style={{textDecoration: `none`}} to="/admin/quanlisanpham">
                                         <p style={{ color: `white`, fontSize: `16px` }} >
                                             Quản lý sản phẩm
                                         </p>
-                                        </Link>
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="" className="nav-link">
                                         <i className="nav-icon fas fa-th"></i>
                                         <p style={{ color: `white`, fontSize: `16px` }}>
-                                            Quản lý đơn hàng
+                                            Widgets
                                         </p>
                                     </a>
                                 </li>
@@ -109,8 +106,8 @@ export default function Trangquantri() {
 
 
                 <div className="content-wrapper">
-                    <h1>Welcome to Admin</h1>
-                    {/* <section className="content-header">
+
+                    <section className="content-header">
                         <div className="container-fluid">
                             <div className="row mb-2">
                                 <div className="col-sm-6">
@@ -125,10 +122,10 @@ export default function Trangquantri() {
                                 </div>
                             </div>
                         </div>
-                    </section> */}
+                    </section>
 
 
-                    {/* <section style={{ margin: `10px` }} >
+                    <section style={{ margin: `10px` }} >
                         <form>
                             <table >
                                 <tr >
@@ -175,7 +172,7 @@ export default function Trangquantri() {
 
                             </table>
                         </form>
-                    </section> */}
+                    </section>
 
                 </div>
 

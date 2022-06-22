@@ -20,6 +20,7 @@ import Cart from './components/cart';
 import Thanhtoan from './components/thanhtoan';
 import Details from './components/details'
 import Trangquantri from './components/trangquantri';
+import Quanlisanpham from './components/quanlisanpham';
 
 
 
@@ -53,6 +54,8 @@ function App() {
     <Route path='/thanhtoan' element={<Thanhtoan/>}></Route>
     <Route path='/shop/:productId' element={<Details/>}></Route>
     <Route path='/admin' element={<Trangquantri/>}></Route>
+    <Route path='/admin/quanlisanpham' element={<Quanlisanpham/>}></Route>
+
     
   </Routes>
   );

@@ -11,6 +11,8 @@ import Footer from "../footer";
 import productsData from "../../productsData";
 
 export default function Shop() {
+
+
     
     // const [products, setProducts] = useState ([])
 
@@ -102,7 +104,9 @@ export default function Shop() {
                                        
                                             <div style={{ textAlign: `center` }}>
                                             <p>
-                                                  <Link to={`${p.id}`}>{p.name}</Link>
+                                                  <Link  style={{textDecoration: `none`}} to={`${p.id}`}>
+                                                    <b style={{fontSize: `13px`}}>{p.name}</b>
+                                                    </Link>
                                             </p>
                                                 <h5 style={{ color: `#03A9F4` }}>{p.price}.000₫</h5>
                                             </div>
