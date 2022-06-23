@@ -123,7 +123,7 @@ export default function Cart() {
                     <Link to="/thanhtoan">< button style={{width: `500px`,  height: `46px`, marginBottom: `10px`, }}
                         className="btn btn-primary" type="submit"> THANH TOÁN NGAY</button></Link>
                 </div>
-                <div style={{ textAlign:`center` }}> <Link to="/#"> <button style={{ width: `500px`, height: `46px` }} className="btn btn-outline-primary">TIẾP
+                <div style={{ textAlign:`center` }}> <Link to="/shop"> <button style={{ width: `500px`, height: `46px` }} className="btn btn-outline-primary">TIẾP
                     TỤC MUA HÀNG</button></Link>
                 </div>
             </div>

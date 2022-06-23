@@ -14,7 +14,7 @@ const di = {
     textAlign: `center`, color: `white`, fontSize: `50px`,
 }
 
-export default function Quanlisanpham() {
+export default function Quanlilienhe() {
     return (
         <div>
             <div className="wrapper">
@@ -73,7 +73,7 @@ export default function Quanlisanpham() {
                                 <li className="nav-item">
                                     <Link style={{textDecoration: `none`}} to="/admin/quanlituyendung" href="" className="nav-link">
                                         <p style={{ color: `white`, fontSize: `16px` }} >
-                                            Quản lý tuyển dụng
+                                            Quản lý liên hệ
                                         </p>
                                     </Link>
                                 </li>
@@ -101,7 +101,7 @@ export default function Quanlisanpham() {
                         <div className="container-fluid">
                             <div className="row mb-2">
                                 <div className="col-sm-6">
-                                    <h1>QUẢN LÍ SẢN PHẨM</h1>
+                                    <h1>Quản lý liên hệ</h1>
                                 </div>
                                 <div className="col-sm-6">
                                     <form className="d-flex" role="search">
@@ -116,7 +116,7 @@ export default function Quanlisanpham() {
 
 
                     <section style={{ margin: `10px` }} >
-                        <form>
+                        {/* <form>
                             <table >
                                 <tr >
                                     <th>Mã Sản Phẩm:</th>
@@ -134,30 +134,44 @@ export default function Quanlisanpham() {
                         </form>
                         <div style={{ margin: `10px`, }}>
                             <button type="button" className="btn btn-success">Thêm mới+</button>
-                        </div>
+                        </div> */}
 
                         <form action="">
                             <table style={{ width: `100%`, textAlign: `center` }}>
                                 <tr >
-                                    <td style={td}>Mã sản phẩm</td>
-                                    <td style={td}>Tên sản phẩm </td>
-                                    <td style={td}>Giá tiền</td>
-                                    <td style={td}><button type="button" className="btn btn-primary">Sửa </button></td>
-                                    <td style={td}><button type="button" className="btn btn-primary">Xóa</button></td>
+                                    <td style={td}>Mã liên hệ</td>
+                                    <td style={td}>Họ và tên</td>
+                                    <td style={td}>Email</td>
+                                    <td style={td}>Số điện thoại</td>
+                                    <td style={td}>Nội dung</td>
+                                    
+                                </tr>
+                                <tr >
+                                    <td style={td}>1</td>
+                                    <td style={td}>Nguyễn Minh Tuấn</td>
+                                    <td style={td}>minhtuan31102002@gmail.com</td>
+                                    <td style={td}>05454564564</td>
+                                    <td style={td}>Nhà sách có quyển hạt giống tâm hồn tập 10 không</td>
+                                    
+                                </tr>
+                                <tr >
+                                    <td style={td}>2</td>
+                                    <td style={td}>Đặng Đức Chung</td>
+                                    <td style={td}>dangducchung@gmail.com</td>
+                                    <td style={td}>05454564564</td>
+                                    <td style={td}>Nhà sách có quyển hạt giống tâm hồn tập 10 không</td>
+                                    
+                                </tr>
+                                <tr >
+                                    <td style={td}>3</td>
+                                    <td style={td}>Nguyễn Quang Duy</td>
+                                    <td style={td}>quangduy@gmail.com</td>
+                                    <td style={td}>05454564564</td>
+                                    <td style={td}>Nhà sách có quyển hạt giống tâm hồn tập 10 không</td>
+                                    
                                 </tr>
 
-                                {productsData.products.map((p, i) => (
-                                        <tr>
-                                            <td style={td}>
-                                                <p>{p.id}</p>
-                                            </td>
-                                            <td style={td}><b style={{ fontSize: `13px` }}>{p.name}</b></td>
-                                            <td style={td}><h5 style={{ color: `#03A9F4` }}>{p.price}.000₫</h5></td>
-                                            <td style={td}><button type="button" className="btn btn-primary">Sửa </button></td>
-                                            <td style={td}><button type="button" className="btn btn-primary">Xóa</button></td>
-                                        </tr>
-                                    
-                                ))}
+                               
 
 
                             </table>

@@ -24,6 +24,7 @@ import Quanlisanpham from './components/quanlisanpham';
 import Quanlidonhang from './components/quanlidonhang';
 import Quanlituyendung from './components/quanlituyendung';
 import Trangchutuyendungg from './components/tuyendung/trangchutuyendung';
+import Quanlilienhe from './components/quanlilienhe';
 
 
 
@@ -60,6 +61,8 @@ function App() {
     <Route path='/admin/quanlidonhang' element={<Quanlidonhang/>}></Route>
     <Route path='/admin/quanlituyendung' element={<Quanlituyendung/>}></Route>
     <Route path='/trangchutuyendung' element={<Trangchutuyendungg/>}></Route>
+    <Route path='/admin/quanlilienhe' element={<Quanlilienhe/>}></Route>
+
     
 
 

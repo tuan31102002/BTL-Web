@@ -78,6 +78,13 @@ export default function Quanlituyendung() {
                                         </p>
                                     </Link>
                                 </li>
+                                <li className="nav-item">
+                                    <Link style={{textDecoration: `none`}} to="/admin/quanlilienhe" href="" className="nav-link">
+                                        <p style={{ color: `white`, fontSize: `16px` }} >
+                                            Quản lý liên hệ
+                                        </p>
+                                    </Link>
+                                </li>
                                 <Link to="/"><button style={{ marginTop: `50px`, width: `230px` }} type="button" className="btn btn-primary">Đăng xuất</button></Link>
                             </ul>
                         </nav>
