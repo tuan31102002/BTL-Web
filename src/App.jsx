@@ -21,6 +21,7 @@ import Thanhtoan from './components/thanhtoan';
 import Details from './components/details'
 import Trangquantri from './components/trangquantri';
 import Quanlisanpham from './components/quanlisanpham';
+import Quanlidonhang from './components/quanlidonhang';
 
 
 
@@ -55,6 +56,8 @@ function App() {
     <Route path='/shop/:productId' element={<Details/>}></Route>
     <Route path='/admin' element={<Trangquantri/>}></Route>
     <Route path='/admin/quanlisanpham' element={<Quanlisanpham/>}></Route>
+    <Route path='/admin/quanlidonhang' element={<Quanlidonhang/>}></Route>
+
 
     
   </Routes>

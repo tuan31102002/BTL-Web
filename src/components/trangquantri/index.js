@@ -56,48 +56,29 @@ export default function Trangquantri() {
                                 data-accordion="false">
 
                                 <li className="nav-item">
-                                    <a href="" className="nav-link">
-                                        <i className="nav-icon fas fa-th"></i>
-                                        <Link style={{textDecoration: `none`}} to="/admin/quanlisanpham">
+                                    <Link style={{textDecoration: `none`}} to="/admin/quanlisanpham" href="" className="nav-link">
                                         <p style={{ color: `white`, fontSize: `16px` }} >
                                             Quản lý sản phẩm
-                                        </p>
-                                        </Link>
-                                    </a>
+                                        </p>       
+                                    </Link>
                                 </li>
+
+                                
                                 <li className="nav-item">
-                                    <a href="" className="nav-link">
-                                        <i className="nav-icon fas fa-th"></i>
-                                        <p style={{ color: `white`, fontSize: `16px` }}>
+                                    <Link style={{textDecoration: `none`}} to="/admin/quanlidonhang" href="" className="nav-link">
+                                        <p style={{ color: `white`, fontSize: `16px` }} >
                                             Quản lý đơn hàng
-                                        </p>
-                                    </a>
+                                        </p>                                
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/#" className="nav-link">
-                                        <i className="nav-icon fas fa-th"></i>
-                                        <p style={{ color: `white`, fontSize: `16px` }}>
-                                            Widgets
+                                    <Link style={{textDecoration: `none`}} to="/admin/quanlidonhang" href="" className="nav-link">
+                                        <p style={{ color: `white`, fontSize: `16px` }} >
+                                            Quản lý tuyển dụng
                                         </p>
-                                    </a>
+                                    </Link>
                                 </li>
-                                <li className="nav-item">
-                                    <a href="" className="nav-link">
-                                        <i className="nav-icon fas fa-th"></i>
-                                        <p style={{ color: `white`, fontSize: `16px` }}>
-                                            Widgets
-                                        </p>
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="/#" className="nav-link">
-                                        <i className="nav-icon fas fa-th"></i>
-                                        <p style={{ color: `white`, fontSize: `16px` }}>
-                                            Widgets
-                                        </p>
-                                    </a>
-                                </li>
-                                <Link to="/"><button style={{ marginTop: `50px`, width: `230px` }} type="button" className="btn btn-primary">Log Out </button></Link>
+                                <Link to="/"><button style={{ marginTop: `50px`, width: `230px` }} type="button" className="btn btn-primary">Đăng xuất</button></Link>
                             </ul>
                         </nav>
 
@@ -110,73 +91,6 @@ export default function Trangquantri() {
 
                 <div className="content-wrapper">
                     <h1>Welcome to Admin</h1>
-                    {/* <section className="content-header">
-                        <div className="container-fluid">
-                            <div className="row mb-2">
-                                <div className="col-sm-6">
-                                    <h1>QUẢN LÍ SẢN PHẨM</h1>
-                                </div>
-                                <div className="col-sm-6">
-                                    <form className="d-flex" role="search">
-                                        <input style={{ width: `300px` }} className="form-control me-2" type="search"
-                                            placeholder="Nhập từ khóa" aria-label="Search" />
-                                        <button className="btn btn-outline-success" type="submit">Tìm kiếm</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </section> */}
-
-
-                    {/* <section style={{ margin: `10px` }} >
-                        <form>
-                            <table >
-                                <tr >
-                                    <th>Mã Sản Phẩm:</th>
-                                    <td>&ensp;&ensp;<input type="text" /></td>
-                                </tr>
-                                <tr>
-                                    <th>Tên Sản Phẩm:</th>
-                                    <td>&ensp;&ensp;<input type="text" /></td>
-                                </tr>
-                                <tr>
-                                    <th>Giá tiền:</th>
-                                    <td>&ensp;&ensp;<input type="text" /></td>
-                                </tr>
-                            </table>
-                        </form>
-                        <div style={{ margin: `10px`, }}>
-                            <button type="button" className="btn btn-success">Thêm mới+</button>
-                        </div>
-
-                        <form action="">
-                            <table style={{ width: `100%`, textAlign: `center` }}>
-                                <tr >
-                                    <td style={td}>Mã sản phẩm</td>
-                                    <td style={td}>Tên sản phẩm </td>
-                                    <td style={td}>Giá tiền</td>
-                                    <td style={td}><button type="button" className="btn btn-primary">Sửa </button></td>
-                                    <td style={td}><button type="button" className="btn btn-primary">Xóa</button></td>
-                                </tr>
-
-                                {productsData.products.map((p, i) => (
-                                        <tr>
-                                            <td style={td}>
-                                                <p>{p.id}</p>
-                                            </td>
-                                            <td style={td}><b style={{ fontSize: `13px` }}>{p.name}</b></td>
-                                            <td style={td}><h5 style={{ color: `#03A9F4` }}>{p.price}.000₫</h5></td>
-                                            <td style={td}><button type="button" className="btn btn-primary">Sửa </button></td>
-                                            <td style={td}><button type="button" className="btn btn-primary">Xóa</button></td>
-                                        </tr>
-                                    
-                                ))}
-
-
-                            </table>
-                        </form>
-                    </section> */}
-
                 </div>
 
 
