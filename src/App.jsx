@@ -22,6 +22,7 @@ import Details from './components/details'
 import Trangquantri from './components/trangquantri';
 import Quanlisanpham from './components/quanlisanpham';
 import Quanlidonhang from './components/quanlidonhang';
+import Quanlituyendung from './components/quanlituyendung';
 
 
 
@@ -57,6 +58,8 @@ function App() {
     <Route path='/admin' element={<Trangquantri/>}></Route>
     <Route path='/admin/quanlisanpham' element={<Quanlisanpham/>}></Route>
     <Route path='/admin/quanlidonhang' element={<Quanlidonhang/>}></Route>
+    <Route path='/admin/quanlituyendung' element={<Quanlituyendung/>}></Route>
+
 
 
     

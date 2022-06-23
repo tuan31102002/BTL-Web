@@ -1,9 +1,8 @@
 import React, { useState,useEffect } from 'react'
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Footer from '../footer';
 import Header from '../header';
 import './style.css';
-import axios from 'axios';
 
 
 import h1 from '../../components/home/assets/home1.png'
@@ -88,18 +87,6 @@ const row3 = {
 
 export default function Home() {
 
-    const [posts, setPosts] = useState ([])
-
-    useEffect(() => {
-        axios.get('http://localhost:8000/truyenThieuNhi').then(res => {
-            console.log(res)
-            setPosts(res.data)
-        })
-        .catch(err => {
-            console.log(err)
-        })
-        
-    })
 
     
 
@@ -107,18 +94,6 @@ export default function Home() {
 
     return (
         <div>
-            <div>
-                <ul>
-                    {
-                        posts.map(post => <li key={post.id}>{post.name}</li>)
-                    }
-                </ul>
-            </div>
-            <div>
-                {
-                    posts.map(post => <h1>{post.name}</h1>)
-                }
-            </div>
             <Header />
             <div className="container">
                 <img style={{width: `100%`,height:`350px`}} src={h1} alt="" />
@@ -186,14 +161,15 @@ export default function Home() {
                                                 <div style={{width: `75%`}}>
                                                     <div style={row2}>
                                                         <div style={{width: `25%`,height: `300px`}}>
-                                                            <div className="container10">
-                                                                <img style={{paddingBottom: `0.3cm`}} width="100%" src={h54} alt="" />
-
-                                                                    <div className="word2"><b>Doraemon Truyện Ngắn Tập 7</b></div>
-                                                                    <div className="word1">
-                                                                        <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>16.200 ₫</b></p>
-                                                                    </div>
-                                                            </div>
+                                                            <Link to="/shop/1">
+                                                                <div className="container10">
+                                                                    <img style={{paddingBottom: `0.3cm`}} width="100%" src={h54} alt="" />
+                                                                        <div className="word2"><b>Doraemon Truyện Ngắn Tập 7</b></div>
+                                                                        <div className="word1">
+                                                                            <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>16.200 ₫</b></p>
+                                                                        </div>
+                                                                </div>
+                                                            </Link>
                                                         </div>
 
                                                         <div style={{width: `25%`,height: `300px`}}>

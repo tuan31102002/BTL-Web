@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import admin from '../../components/trangquantri/admin.jpg'
-import productsData from "../../productsData"
+// import productsData from "../../productsData"
 
 const td = {
     border: `1px solid black`,
@@ -40,10 +40,10 @@ export default function Quanlidonhang() {
                     <div className="sidebar">
                         <div className="user-panel mt-3 pb-3 mb-3 d-flex">
                             <div className="image">
-                                <img style={{ width: `33px`, height: `33px` }} src={admin} className="img-circle elevation-2" alt="User Image" />
+                                <img style={{ width: `33px`, height: `33px` }} src={admin} className="img-circle elevation-2" alt="User_Image" />
                             </div>
                             <div className="info">
-                                <a style={{ textDecoration: `none`, fontSize: `16px` }} href="" className="d-block">Đặng Đức Chung</a>
+                                <a style={{ textDecoration: `none`, fontSize: `16px` }} href="/admin" className="d-block">Đặng Đức Chung</a>
                             </div>
                         </div>
 
@@ -55,44 +55,27 @@ export default function Quanlidonhang() {
                                 data-accordion="false">
 
                                 <li className="nav-item">
-                                    <a href="" className="nav-link">
-                                        <i className="nav-icon fas fa-th"></i>
+                                    <Link style={{textDecoration: `none`}} to="/admin/quanlisanpham" href="" className="nav-link">
                                         <p style={{ color: `white`, fontSize: `16px` }} >
                                             Quản lý sản phẩm
-                                        </p>
-                                    </a>
+                                        </p>       
+                                    </Link>
                                 </li>
+
+                                
                                 <li className="nav-item">
-                                    <a href="" className="nav-link">
-                                        <i className="nav-icon fas fa-th"></i>
-                                        <p style={{ color: `white`, fontSize: `16px` }}>
+                                    <Link style={{textDecoration: `none`}} to="/admin/quanlidonhang" href="" className="nav-link">
+                                        <p style={{ color: `white`, fontSize: `16px` }} >
                                             Quản lý đơn hàng
-                                        </p>
-                                    </a>
+                                        </p>                                
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/#" className="nav-link">
-                                        <i className="nav-icon fas fa-th"></i>
-                                        <p style={{ color: `white`, fontSize: `16px` }}>
-                                            Widgets
+                                    <Link style={{textDecoration: `none`}} to="/admin/quanlituyendung" href="" className="nav-link">
+                                        <p style={{ color: `white`, fontSize: `16px` }} >
+                                            Quản lý tuyển dụng
                                         </p>
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="" className="nav-link">
-                                        <i className="nav-icon fas fa-th"></i>
-                                        <p style={{ color: `white`, fontSize: `16px` }}>
-                                            Widgets
-                                        </p>
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="/#" className="nav-link">
-                                        <i className="nav-icon fas fa-th"></i>
-                                        <p style={{ color: `white`, fontSize: `16px` }}>
-                                            Widgets
-                                        </p>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <Link to="/"><button style={{ marginTop: `50px`, width: `230px` }} type="button" className="btn btn-primary">Log Out </button></Link>
                             </ul>

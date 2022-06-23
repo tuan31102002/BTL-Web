@@ -5,7 +5,8 @@ import productsData from "../../productsData"
 
 const td = {
     border: `1px solid black`,
-    textAlign: `center`
+    textAlign: `center`,
+    fontSize: `13px`
 }
 const li = {
     fontSize: `30px`,
@@ -14,7 +15,7 @@ const di = {
     textAlign: `center`, color: `white`, fontSize: `50px`,
 }
 
-export default function Quanlisanpham() {
+export default function Quanlituyendung() {
     return (
         <div>
             <div className="wrapper">
@@ -25,7 +26,7 @@ export default function Quanlisanpham() {
                     <div>
                         <ol style={{ backgroundColor: `white`, }} className="breadcrumb float-sm-right">
                         <li className="breadcrumb-item"><a style={{textDecoration: `none` , fontSize: `30px`}} href="/admin">Home</a></li>
-                            <li style={li} className="breadcrumb-item active">Quản lý sản phẩm</li>
+                            <li style={li} className="breadcrumb-item active">Quản lý tuyển dụng</li>
                         </ol>
                     </div>
                 </nav>
@@ -94,7 +95,7 @@ export default function Quanlisanpham() {
                         <div className="container-fluid">
                             <div className="row mb-2">
                                 <div className="col-sm-6">
-                                    <h1>QUẢN LÍ SẢN PHẨM</h1>
+                                    <h1>Quản lí tuyển dụng</h1>
                                 </div>
                                 <div className="col-sm-6">
                                     <form className="d-flex" role="search">
@@ -109,48 +110,68 @@ export default function Quanlisanpham() {
 
 
                     <section style={{ margin: `10px` }} >
-                        <form>
-                            <table >
-                                <tr >
-                                    <th>Mã Sản Phẩm:</th>
-                                    <td>&ensp;&ensp;<input type="text" /></td>
-                                </tr>
-                                <tr>
-                                    <th>Tên Sản Phẩm:</th>
-                                    <td>&ensp;&ensp;<input type="text" /></td>
-                                </tr>
-                                <tr>
-                                    <th>Giá tiền:</th>
-                                    <td>&ensp;&ensp;<input type="text" /></td>
-                                </tr>
-                            </table>
-                        </form>
-                        <div style={{ margin: `10px`, }}>
-                            <button type="button" className="btn btn-success">Thêm mới+</button>
-                        </div>
-
                         <form action="">
                             <table style={{ width: `100%`, textAlign: `center` }}>
                                 <tr >
-                                    <td style={td}>Mã sản phẩm</td>
-                                    <td style={td}>Tên sản phẩm </td>
-                                    <td style={td}>Giá tiền</td>
-                                    <td style={td}><button type="button" className="btn btn-primary">Sửa </button></td>
-                                    <td style={td}><button type="button" className="btn btn-primary">Xóa</button></td>
+                                    <td style={td}>Mã tuyển dụng</td>
+                                    <td style={td}>Họ và tên</td>
+                                    <td style={td}>Số điện thoại</td>
+                                    <td style={td}>Vị trí ứng tuyển</td>
+                                    <td style={td}>Địa điểm làm việc</td>
+                                    <td style={td}>Trạng thái</td>
+                              
                                 </tr>
+                                <tr >
+                                    <td style={td}>1</td>
+                                    <td style={td}>Đặng Đức Chung</td>
+                                    <td style={td}>0145454548</td>
+                                    <td style={td}>Kế toán nội bộ</td>
+                                    <td style={td}>828 đường Láng, Đống Đa, Hà Nội</td>
+                                    <td style={td}>Đã duyệt</td>
+                                </tr>
+                                <tr >
+                                    <td style={td}>2</td>
+                                    <td style={td}>Nguyễn Minh Tuấn</td>
+                                    <td style={td}>0545645654</td>
+                                    <td style={td}>Giám sát vận hành nhà sách</td>
+                                    <td style={td}>36 Xuân Thủy,Cầu Giấy,Hà Nội -</td>
+                                    <td style={td}>Đã duyệt</td>
+                                </tr>
+                                <tr >
+                                    <td style={td}>3</td>
+                                    <td style={td}>Nguyễn Quang Duy</td>
+                                    <td style={td}>0145454548</td>
+                                    <td style={td}>Kế toán nội bộ</td>
+                                    <td style={td}>828 đường Láng, Đống Đa, Hà Nội</td>
+                                    <td style={td}>Đã duyệt</td>
+                                </tr>
+                                <tr >
+                                    <td style={td}>4</td>
+                                    <td style={td}>Lê Bảo Bình</td>
+                                    <td style={td}>0145879548</td>
+                                    <td style={td}>Nhân viên kiểm kê</td>
+                                    <td style={td}>424 Nguyễn Trãi, Thanh Xuân, Hà Nội</td>
+                                    <td style={td}>Đã duyệt</td>
+                                </tr>
+                                <tr >
+                                    <td style={td}>5</td>
+                                    <td style={td}>Nguyễn Thanh Tùng</td>
+                                    <td style={td}>0915451562</td>
+                                    <td style={td}>Trợ lí giám đốc</td>
+                                    <td style={td}>828 đường Láng, Đống Đa, Hà Nội</td>
+                                    <td style={td}>Đã duyệt</td>
+                                </tr>
+                                <tr >
+                                    <td style={td}>6</td>
+                                    <td style={td}>Đặng Đức Chung</td>
+                                    <td style={td}>0145454548</td>
+                                    <td style={td}>Kế toán nội bộ</td>
+                                    <td style={td}>828 đường Láng, Đống Đa, Hà Nội</td>
+                                    <td style={td}>Đã duyệt</td>
+                                </tr>
+                           
 
-                                {productsData.products.map((p, i) => (
-                                        <tr>
-                                            <td style={td}>
-                                                <p>{p.id}</p>
-                                            </td>
-                                            <td style={td}><b style={{ fontSize: `13px` }}>{p.name}</b></td>
-                                            <td style={td}><h5 style={{ color: `#03A9F4` }}>{p.price}.000₫</h5></td>
-                                            <td style={td}><button type="button" className="btn btn-primary">Sửa </button></td>
-                                            <td style={td}><button type="button" className="btn btn-primary">Xóa</button></td>
-                                        </tr>
-                                    
-                                ))}
+                               
 
 
                             </table>

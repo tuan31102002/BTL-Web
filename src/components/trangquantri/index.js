@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import admin from '../../components/trangquantri/admin.jpg'
-import productsData from "../../productsData"
-import Quanlisanpham from "../quanlisanpham";
+// import productsData from "../../productsData"
+// import Quanlisanpham from "../quanlisanpham";
 
-const td = {
-    border: `1px solid black`,
-    textAlign: `center`
-}
+// const td = {
+//     border: `1px solid black`,
+//     textAlign: `center`
+// }
 const li = {
     fontSize: `30px`,
 }
@@ -41,10 +41,10 @@ export default function Trangquantri() {
                     <div className="sidebar">
                         <div className="user-panel mt-3 pb-3 mb-3 d-flex">
                             <div className="image">
-                                <img style={{ width: `33px`, height: `33px` }} src={admin} className="img-circle elevation-2" alt="User Image" />
+                                <img style={{ width: `33px`, height: `33px` }} src={admin} className="img-circle elevation-2" alt="User_Image" />
                             </div>
                             <div className="info">
-                                <a style={{ textDecoration: `none`, fontSize: `16px` }} href="" className="d-block">Đặng Đức Chung</a>
+                                <a style={{ textDecoration: `none`, fontSize: `16px` }} href="/admin" className="d-block">Đặng Đức Chung</a>
                             </div>
                         </div>
 
@@ -72,7 +72,7 @@ export default function Trangquantri() {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link style={{textDecoration: `none`}} to="/admin/quanlidonhang" href="" className="nav-link">
+                                    <Link style={{textDecoration: `none`}} to="/admin/quanlituyendung" href="" className="nav-link">
                                         <p style={{ color: `white`, fontSize: `16px` }} >
                                             Quản lý tuyển dụng
                                         </p>
