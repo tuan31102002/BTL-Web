@@ -101,7 +101,7 @@ export default function Header(){
                 </li> */}
 
                 <li className="nav-item dropdown ">
-                    <Link  style={font}  className="nav-link dropdown" to="/" >TUYỂN DỤNG</Link>
+                    <Link  style={font}  className="nav-link dropdown" to="/trangchutuyendung" >TUYỂN DỤNG</Link>
                     <ul style={{width:`200px`}}  className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><Link style={li}   className="nav-link dropdown" to="/ketoannoibo" >KẾ TOÁN NỘI BỘ</Link></li>
                             <li ><Link style={li}   className="nav-link dropdown" to="/giamsatvanhanh" >GIÁM SÁT VẬN HÀNH</Link></li>

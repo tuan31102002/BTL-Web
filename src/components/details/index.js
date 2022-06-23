@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // import dr from '../../components/details/assets/doremon.svg'
 import Header from "../header";
@@ -37,7 +38,7 @@ export default function Details(){
                     
                     <h3 className="center-text">{thisProduct.price}.000₫</h3>
                     <br/>
-                    <button type="button" className="btn btn-primary btn-lg" style={{backgroundColor:`#03A9F4`, borderRadius:`0px` }}>THÊM VÀO GIỎ</button>
+                <Link to="/cart">    <button type="button" className="btn btn-primary btn-lg" style={{backgroundColor:`#03A9F4`, borderRadius:`0px` }} >THÊM VÀO GIỎ</button> </Link>
                 </div>
             </div>
             <div style={{width: `20%`,}}>

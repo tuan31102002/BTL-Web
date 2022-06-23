@@ -5,6 +5,7 @@ import Header from '../header';
 import './style.css';
 
 
+
 import h1 from '../../components/home/assets/home1.png'
 import h2 from '../../components/home/assets/home2.png'
 import h3 from '../../components/home/assets/home3.png'
@@ -173,6 +174,7 @@ export default function Home() {
                                                         </div>
 
                                                         <div style={{width: `25%`,height: `300px`}}>
+                                                        <Link to="/shop/2">
                                                             <div className="container10">
                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h55} alt="" />
 
@@ -185,8 +187,10 @@ export default function Home() {
                                                                         <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>40.000₫</b></p>
                                                                     </div>
                                                             </div>
+                                                        </Link>  
                                                         </div>
                                                         <div style={{width: `25%`,height: `300px`}}>
+                                                        <Link to="/shop/3">
                                                             <div className="container10">
                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h56} alt="" />
 
@@ -196,8 +200,10 @@ export default function Home() {
                                                                         <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>23.300 ₫</b></p>
                                                                     </div>
                                                             </div>
+                                                        </Link>
                                                         </div>
                                                         <div style={{width: `25%`,height: `300px`}}>
+                                                        <Link to="/shop/4">
                                                             <div className="container10">
                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h57} alt="" />
 
@@ -207,8 +213,10 @@ export default function Home() {
                                                                         </b></p>
                                                                     </div>
                                                             </div>
+                                                        </Link>    
                                                         </div>
                                                         <div style={{width: `25%`,height: `300px`}}>
+                                                        <Link to="/shop/5">
                                                             <div className="container10">
                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h58} alt="" />
 
@@ -218,8 +226,10 @@ export default function Home() {
 
                                                                     </div>
                                                             </div>
+                                                        </Link>
                                                         </div>
                                                          <div style={{width: `25%`,height: `300px`}}>
+                                                         <Link to="/shop/6">
                                                             <div className="container10">
                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h59} alt="" />
 
@@ -231,8 +241,10 @@ export default function Home() {
 
                                                                     </div>
                                                             </div>
+                                                        </Link>
                                                         </div>
                                                          <div style={{width: `25%`,height: `300px`}}>
+                                                         <Link to="/shop/7">
                                                             <div className="container10">
                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" height="100%"
                                                                     src={h60} alt="" />
@@ -245,8 +257,10 @@ export default function Home() {
 
                                                                     </div>
                                                             </div>
+                                                        </Link>
                                                         </div>
                                                          <div style={{width: `25%`,height: `300px`}}>
+                                                         <Link to="/shop/8">
                                                             <div className="container10">
                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h61} alt="" />
 
@@ -256,6 +270,7 @@ export default function Home() {
                                                                         </b></p>
                                                                     </div>
                                                             </div>
+                                                        </Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -281,6 +296,7 @@ export default function Home() {
                                                     <div style={{width: `75%`}}>
                                                         <div style={row2}>
                                                              <div style={{width: `25%`,height: `300px`}}>
+                                                             <Link to="/shop/9">
                                                                 <div className="container10">
                                                                     <img style={{paddingBottom: `0.3cm`}} width="100%" src={h14} alt="" />
 
@@ -290,9 +306,11 @@ export default function Home() {
                                                                             <p style={{color: `#333333`}}><del>30.000₫</del></p>
                                                                         </div>
                                                                 </div>
+                                                            </Link>
                                                             </div>
 
                                                              <div style={{width: `25%`,height: `300px`}}>
+                                                             <Link to="/shop/10">
                                                                 <div className="container10">
                                                                     <img style={{paddingBottom: `0.3cm`}} width="100%" src={h15} alt="" />
 
@@ -302,8 +320,10 @@ export default function Home() {
                                                                             <p style={{color: `#333333`}}><del>38.000₫</del></p>
                                                                         </div>
                                                                 </div>
+                                                            </Link>
                                                             </div>
                                                              <div style={{width: `25%`,height: `300px`}}>
+                                                             <Link to="/shop/11">
                                                                 <div className="container10">
                                                                     <img style={{paddingBottom: `0.3cm`}} width="100%" src={h16} alt="" />
 
@@ -313,8 +333,10 @@ export default function Home() {
                                                                             <p style={{color: `#333333`}}><del>119.000₫</del></p>
                                                                         </div>
                                                                 </div>
+                                                            </Link>
                                                             </div>
                                                              <div style={{width: `25%`,height: `300px`}}>
+                                                             <Link to="/shop/12">
                                                                 <div className="container10">
                                                                     <img style={{paddingBottom: `0.3cm`}} width="100%" src={h17} alt="" />
 
@@ -324,8 +346,11 @@ export default function Home() {
                                                                             <p style={{color: `#333333`}}><del>115.000₫</del></p>
                                                                         </div>
                                                                 </div>
+                                                            </Link>
+                                                            
                                                             </div>
                                                              <div style={{width: `25%`,height: `300px`}}>
+                                                             <Link to="/shop/13">
                                                                 <div className="container10">
                                                                     <img style={{paddingBottom: `0.3cm`}} width="100%" src={h18} alt="" />
 
@@ -335,8 +360,10 @@ export default function Home() {
                                                                             <p style={{color: `#333333`}}><del>49.000₫</del></p>
                                                                         </div>
                                                                 </div>
+                                                            </Link>
                                                             </div>
                                                              <div style={{width: `25%`,height: `300px`}}>
+                                                             <Link to="/shop/14">
                                                                 <div className="container10">
                                                                     <img style={{paddingBottom: `0.3cm`}} width="100%" src={h19} alt="" />
 
@@ -346,8 +373,10 @@ export default function Home() {
                                                                             <p style={{color: `#333333`}}><del>44.000₫</del></p>
                                                                         </div>
                                                                 </div>
+                                                            </Link>
                                                             </div>
                                                              <div style={{width: `25%`,height: `300px`}}>
+                                                             <Link to="/shop/15">
                                                                 <div className="container10">
                                                                     <img style={{paddingBottom: `0.3cm`}} width="100%" height="100%"
                                                                         src={h20} alt="" />
@@ -358,8 +387,10 @@ export default function Home() {
                                                                             <p style={{color: `#333333`}}><del>48.000₫</del></p>
                                                                         </div>
                                                                 </div>
+                                                            </Link>
                                                             </div>
                                                              <div style={{width: `25%`,height: `300px`}}>
+                                                             <Link to="/shop/16">
                                                                 <div className="container10">
                                                                     <img style={{paddingBottom: `0.3cm`}} width="100%" src={h21} alt="" />
 
@@ -369,6 +400,7 @@ export default function Home() {
                                                                             <p style={{color: `#333333`}}><del>48.000₫</del></p>
                                                                         </div>
                                                                 </div>
+                                                            </Link>  
                                                             </div>
                                                         </div>
                                                     </div>
@@ -396,6 +428,7 @@ export default function Home() {
                                                         <div style={{width: `75%`}}>
                                                             <div style={row2}>
                                                                  <div style={{width: `25%`,height: `300px`}}>
+                                                                 <Link to="/shop/17">
                                                                     <div className="container10">
                                                                         <img style={{paddingBottom: `0.3cm`}} width="100%" src={h44} alt="" />
 
@@ -404,9 +437,11 @@ export default function Home() {
                                                                                 <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>86.000₫</b></p>
                                                                             </div>
                                                                     </div>
+                                                                </Link>
                                                                 </div>
 
                                                                  <div style={{width: `25%`,height: `300px`}}>
+                                                                 <Link to="/shop/18">
                                                                     <div className="container10">
                                                                         <img style={{paddingBottom: `0.3cm`}} width="100%" src={h45} alt="" />
 
@@ -418,8 +453,10 @@ export default function Home() {
                                                                                 <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>22.000₫</b></p>
                                                                             </div>
                                                                     </div>
+                                                                </Link>
                                                                 </div>
                                                                  <div style={{width: `25%`,height: `300px`}}>
+                                                                 <Link to="/shop/19">
                                                                     <div className="container10">
                                                                         <img style={{paddingBottom: `0.3cm`}} width="100%" src={h46} alt="" />
 
@@ -429,8 +466,10 @@ export default function Home() {
                                                                                 <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>10.000₫</b></p>
                                                                             </div>
                                                                     </div>
+                                                                </Link>
                                                                 </div>
                                                                  <div style={{width: `25%`,height: `300px`}}>
+                                                                 <Link to="/shop/20">
                                                                     <div className="container10">
                                                                         <img style={{paddingBottom: `0.3cm`}} width="100%" src={h47} alt="" />
 
@@ -439,8 +478,10 @@ export default function Home() {
                                                                                 <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>51.000₫</b></p>
                                                                             </div>
                                                                     </div>
+                                                                </Link>
                                                                 </div>
                                                                  <div style={{width: `25%`,height: `300px`}}>
+                                                                 <Link to="/shop/21">
                                                                     <div className="container10">
                                                                         <img style={{paddingBottom: `0.3cm`}} width="100%" src={h48} alt="" />
 
@@ -450,8 +491,10 @@ export default function Home() {
 
                                                                             </div>
                                                                     </div>
+                                                                </Link>
                                                                 </div>
                                                                  <div style={{width: `25%`,height: `300px`}}>
+                                                                 <Link to="/shop/22">
                                                                     <div className="container10">
                                                                         <img style={{paddingBottom: `0.3cm`}} width="100%" src={h49} alt="" />
 
@@ -462,8 +505,10 @@ export default function Home() {
 
                                                                             </div>
                                                                     </div>
+                                                                </Link>
                                                                 </div>
                                                                  <div style={{width: `25%`,height: `300px`}}>
+                                                                 <Link to="/shop/23">
                                                                     <div className="container10">
                                                                         <img style={{paddingBottom: `0.3cm`}} width="100%" height="100%"
                                                                             src={h50} alt="" />
@@ -475,8 +520,10 @@ export default function Home() {
 
                                                                             </div>
                                                                     </div>
+                                                                </Link>
                                                                 </div>
                                                                  <div style={{width: `25%`,height: `300px`}}>
+                                                                 <Link to="/shop/24">
                                                                     <div className="container10">
                                                                         <img style={{paddingBottom: `0.3cm`}} width="100%" src={h51} alt="" />
 
@@ -485,6 +532,7 @@ export default function Home() {
                                                                                 <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>79.000₫</b></p>
                                                                             </div>
                                                                     </div>
+                                                                </Link>    
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -510,6 +558,7 @@ export default function Home() {
                                                             <div style={{width: `75%`}}>
                                                                 <div style={row2}>
                                                                      <div style={{width: `25%`,height: `300px`}}>
+                                                                     <Link to="/shop/25">
                                                                         <div className="container10">
                                                                             <img style={{paddingBottom: `0.3cm`}} width="100%" src={h34} alt="" />
 
@@ -518,9 +567,11 @@ export default function Home() {
                                                                                     <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>204.000₫</b></p>
                                                                                 </div>
                                                                         </div>
+                                                                    </Link>
                                                                     </div>
 
                                                                      <div style={{width: `25%`,height: `300px`}}>
+                                                                     <Link to="/shop/26">  
                                                                         <div className="container10">
                                                                             <img style={{paddingBottom: `0.3cm`}} width="100%" src={h35} alt="" />
 
@@ -530,8 +581,10 @@ export default function Home() {
                                                                                     <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>87.000₫</b></p>
                                                                                 </div>
                                                                         </div>
+                                                                    </Link>
                                                                     </div>
                                                                      <div style={{width: `25%`,height: `300px`}}>
+                                                                     <Link to="/shop/27">
                                                                         <div className="container10">
                                                                             <img style={{paddingBottom: `0.3cm`}} width="100%" src={h36} alt="" />
 
@@ -541,8 +594,10 @@ export default function Home() {
                                                                                     <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>133.000₫</b></p>
                                                                                 </div>
                                                                         </div>
+                                                                    </Link>
                                                                     </div>
                                                                      <div style={{width: `25%`,height: `300px`}}>
+                                                                     <Link to="/shop/28">
                                                                         <div className="container10">
                                                                             <img style={{paddingBottom: `0.3cm`}} width="100%" src={h37} alt="" />
 
@@ -551,8 +606,10 @@ export default function Home() {
                                                                                     <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>164.000₫</b></p>
                                                                                 </div>
                                                                         </div>
+                                                                    </Link>
                                                                     </div>
                                                                      <div style={{width: `25%`,height: `300px`}}>
+                                                                    <Link to="/shop/29">
                                                                         <div className="container10">
                                                                             <img style={{paddingBottom: `0.3cm`}} width="100%" src={h38} alt="" />
 
@@ -562,8 +619,10 @@ export default function Home() {
 
                                                                                 </div>
                                                                         </div>
+                                                                    </Link>
                                                                     </div>
                                                                      <div style={{width: `25%`,height: `300px`}}>
+                                                                     <Link to="/shop/30">
                                                                         <div className="container10">
                                                                             <img style={{paddingBottom: `0.3cm`}} width="100%" src={h39} alt="" />
 
@@ -574,8 +633,10 @@ export default function Home() {
 
                                                                                 </div>
                                                                         </div>
+                                                                     </Link>   
                                                                     </div>
                                                                      <div style={{width: `25%`,height: `300px`}}>
+                                                                     <Link to="/shop/31">
                                                                         <div className="container10">
                                                                             <img style={{paddingBottom: `0.3cm`}} width="100%" height="100%"
                                                                                 src={h40} alt="" />
@@ -586,8 +647,10 @@ export default function Home() {
 
                                                                                 </div>
                                                                         </div>
+                                                                    </Link>
                                                                     </div>
                                                                      <div style={{width: `25%`,height: `300px`}}>
+                                                                     <Link to="/shop/32">
                                                                         <div className="container10">
                                                                             <img style={{paddingBottom: `0.3cm`}} width="100%" src={h41} alt="" />
 
@@ -596,6 +659,7 @@ export default function Home() {
                                                                                     <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>93.000₫</b></p>
                                                                                 </div>
                                                                         </div>
+                                                                    </Link>    
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -621,6 +685,7 @@ export default function Home() {
                                                                 <div style={{width: `75%`}}>
                                                                     <div style={row2}>
                                                                          <div style={{width: `25%`,height: `300px`}}>
+                                                                         <Link to="/shop/33">
                                                                             <div className="container10">
                                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h24} alt="" />
 
@@ -629,9 +694,11 @@ export default function Home() {
                                                                                         <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>27.000₫</b></p>
                                                                                     </div>
                                                                             </div>
+                                                                        </Link>    
                                                                         </div>
 
                                                                          <div style={{width: `25%`,height: `300px`}}>
+                                                                         <Link to="/shop/34">
                                                                             <div className="container10">
                                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h25} alt="" />
 
@@ -640,8 +707,10 @@ export default function Home() {
                                                                                         <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>301.000₫</b></p>
                                                                                     </div>
                                                                             </div>
+                                                                        </Link>    
                                                                         </div>
                                                                          <div style={{width: `25%`,height: `300px`}}>
+                                                                         <Link to="/shop/35">
                                                                             <div className="container10">
                                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h26} alt="" />
 
@@ -650,8 +719,10 @@ export default function Home() {
                                                                                         <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>34.000₫</b></p>
                                                                                     </div>
                                                                             </div>
+                                                                        </Link>
                                                                         </div>
                                                                          <div style={{width: `25%`,height: `300px`}}>
+                                                                         <Link to="/shop/36">
                                                                             <div className="container10">
                                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h27} alt="" />
 
@@ -660,8 +731,10 @@ export default function Home() {
                                                                                         <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>27.000₫</b></p>
                                                                                     </div>
                                                                             </div>
+                                                                        </Link>
                                                                         </div>
                                                                          <div style={{width: `25%`,height: `300px`}}>
+                                                                         <Link to="/shop/37">
                                                                             <div className="container10">
                                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h28} alt="" />
 
@@ -671,8 +744,10 @@ export default function Home() {
 
                                                                                     </div>
                                                                             </div>
+                                                                        </Link>    
                                                                         </div>
                                                                          <div style={{width: `25%`,height: `300px`}}>
+                                                                         <Link to="/shop/38">
                                                                             <div className="container10">
                                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h29} alt="" />
 
@@ -682,8 +757,10 @@ export default function Home() {
 
                                                                                     </div>
                                                                             </div>
+                                                                        </Link>
                                                                         </div>
                                                                          <div style={{width: `25%`,height: `300px`}}>
+                                                                         <Link to="/shop/39">
                                                                             <div className="container10">
                                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" height="100%"
                                                                                     src={h30} alt="" />
@@ -694,8 +771,10 @@ export default function Home() {
 
                                                                                     </div>
                                                                             </div>
+                                                                        </Link>
                                                                         </div>
                                                                          <div style={{width: `25%`,height: `300px`}}>
+                                                                         <Link to="/shop/40">
                                                                             <div className="container10">
                                                                                 <img style={{paddingBottom: `0.3cm`}} width="100%" src={h31} alt="" />
 
@@ -704,6 +783,7 @@ export default function Home() {
                                                                                         <p style={{paddingRight: `10px`,color: `#03A9F4`}}><b>83.000₫</b></p>
                                                                                     </div>
                                                                             </div>
+                                                                        </Link>
                                                                         </div>
                                                                     </div>
                                                                 </div>
