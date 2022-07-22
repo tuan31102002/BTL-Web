@@ -6,6 +6,10 @@ export default function About() {
     <div>
      <h1> About Page</h1>
       <Link to="/">Home Page </Link>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
     </div>
   );
 };
