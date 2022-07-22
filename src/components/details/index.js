@@ -101,6 +101,10 @@ export default function Details(){
                             <div style={{width: `60%`,}}>
                                 <p>Harry Potter and the Half-Blood Prince</p>
                                 <p style={{color: `#03A9F4`,}}>252.000₫</p>
+                                <h2>qweqweqweqweqw</h2>
+                                <h2>qweqweqweqweqw</h2>
+                                <h2>qweqweqweqweqw</h2>
+                                <h2>qweqweqweqweqw</h2>
                             </div>
                         </div>
 
